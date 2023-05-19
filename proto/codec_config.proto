@@ -16,6 +16,18 @@ message DecoderConfigLpcm {
   optional uint32 sample_rate = 3;
 }
 
+enum OpusApplicationFlag {
+  APPLICATION_INVALID = 0;
+  APPLICATION_VOIP = 1;
+  APPLICATION_AUDIO = 2;
+  APPLICATION_RESTRICTED_LOWDELAY = 3;
+}
+
+message OpusEncoderMetadata {
+  optional int32 target_bitrate = 1;
+  optional OpusApplicationFlag application = 2;
+}
+
 message DecoderConfigOpus {
   optional uint32 version = 1;
   optional uint32 output_channel_count = 2;
@@ -23,6 +35,7 @@ message DecoderConfigOpus {
   optional uint32 input_sample_rate = 4;
   optional int32 output_gain = 5;
   optional uint32 mapping_family = 6;
+  optional OpusEncoderMetadata opus_encoder_metadata = 7;
 }
 
 message DecoderConfigAac {}
