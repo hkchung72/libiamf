@@ -960,3 +960,17 @@ AudioFrameOBU_128:
   num_samples_to_trim_at_end: 64
   size_of(audio_frame): 256
 ##
+#0
+AudioFrameOBU_129:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 64
+  size_of(audio_frame): 256
+##
+#0
+AudioFrameOBU_130:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 64
+  size_of(audio_frame): 256
+##

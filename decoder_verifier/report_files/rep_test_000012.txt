@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000012.log
+* wav output file: ./wav_output_files/ss0_test_000012.wav
+* reference wav file: ./ref_wav_files/ref_test_000012.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream. Additional samples are trimmed from
+the end of input wav file to make it shorter.
+is_valid: True
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end']
+****************************************

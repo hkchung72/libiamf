@@ -116,18 +116,18 @@ stsc_00000000000085e0:
 - SampleDescriptionIndex_0: 1
 ##
 #1
-stsz_0000000000008610:
-- Version: 0
-- Flags: 0
-- SampleSize: 269
-- SampleCount: 125
-##
-#1
 stco_00000000000085fc:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 - ChunkOffset_0: 40
+##
+#1
+stsz_0000000000008610:
+- Version: 0
+- Flags: 0
+- SampleSize: 269
+- SampleCount: 125
 ##
 #0
 MagicCodeOBU_0:

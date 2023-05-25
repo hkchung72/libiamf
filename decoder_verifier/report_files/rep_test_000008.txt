@@ -1,0 +1,19 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for SyncOBU
+sync_array -> 0 -> reinitialize_decoder
+  reinitialize_decoder must be False in this version (type=value_error)
+****************************************
+description:
+A stereo IAMF stream which is invalid because
+`reinitialize_decoder` in the Sync OBU must be false for
+Magic Code `version` 0.
+is_valid: False
+primary_tested_spec_sections: ['3.12/reinitialize_decoder']
+****************************************

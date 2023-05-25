@@ -1,0 +1,23 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+103 item(s) of 103 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+data
+  sync_obu must have all obu_ids in audio_frame_obus and parameter_block_obus (type=value_error)
+****************************************
+description:
+A stereo IAMF stream with 1 substream with a no-op Parameter
+Block OBU added, which is not included in the Sync OBU and
+thus should fail.
+is_valid: False
+primary_tested_spec_sections: ['3.12/obu_id']
+****************************************

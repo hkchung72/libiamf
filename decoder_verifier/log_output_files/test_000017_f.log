@@ -111,6 +111,12 @@ stsc_0000000000000297:
 - EntryCount: 0
 ##
 #1
+stco_00000000000002a7:
+- Version: 0
+- Flags: 0
+- EntryCount: 0
+##
+#1
 stsz_00000000000002b7:
 - Version: 0
 - Flags: 0
@@ -118,157 +124,271 @@ stsz_00000000000002b7:
 - SampleCount: 0
 ##
 #1
-stco_00000000000002a7:
+moof_0000000000000307:
+##
+#1
+traf_000000000000031f:
+##
+#1
+tfhd_0000000000000327:
 - Version: 0
-- Flags: 0
-- EntryCount: 0
-##
-#1
-moof_00000000000002db:
-##
-#1
-traf_00000000000002f3:
-##
-#1
-tfhd_00000000000002fb:
-- Version: 0
-- Flags: 131114
+- Flags: 131106
 - TrackID: 1
 - SampleDescriptionIndex: 1
-- DefaultSampleDuration: 64
 - DefaultSampleFlag: 0
 ##
 #1
-trun_0000000000000327:
-- Version: 1
-- Flags: 513
-- SampleCount: 125
-- DataOffset: 630
+trun_000000000000034f:
+- Version: 0
+- Flags: 769
+- SampleCount: 123
+- DataOffset: 1110
+- SampleDuration_0: 64
 - SampleSize_0: 268
+- SampleDuration_1: 64
 - SampleSize_1: 268
+- SampleDuration_2: 64
 - SampleSize_2: 268
+- SampleDuration_3: 64
 - SampleSize_3: 268
+- SampleDuration_4: 64
 - SampleSize_4: 268
+- SampleDuration_5: 64
 - SampleSize_5: 268
+- SampleDuration_6: 64
 - SampleSize_6: 268
+- SampleDuration_7: 64
 - SampleSize_7: 268
+- SampleDuration_8: 64
 - SampleSize_8: 268
+- SampleDuration_9: 64
 - SampleSize_9: 268
+- SampleDuration_10: 64
 - SampleSize_10: 268
+- SampleDuration_11: 64
 - SampleSize_11: 268
+- SampleDuration_12: 64
 - SampleSize_12: 268
+- SampleDuration_13: 64
 - SampleSize_13: 268
+- SampleDuration_14: 64
 - SampleSize_14: 268
+- SampleDuration_15: 64
 - SampleSize_15: 268
+- SampleDuration_16: 64
 - SampleSize_16: 268
+- SampleDuration_17: 64
 - SampleSize_17: 268
+- SampleDuration_18: 64
 - SampleSize_18: 268
+- SampleDuration_19: 64
 - SampleSize_19: 268
+- SampleDuration_20: 64
 - SampleSize_20: 268
+- SampleDuration_21: 64
 - SampleSize_21: 268
+- SampleDuration_22: 64
 - SampleSize_22: 268
+- SampleDuration_23: 64
 - SampleSize_23: 268
+- SampleDuration_24: 64
 - SampleSize_24: 268
+- SampleDuration_25: 64
 - SampleSize_25: 268
+- SampleDuration_26: 64
 - SampleSize_26: 268
+- SampleDuration_27: 64
 - SampleSize_27: 268
+- SampleDuration_28: 64
 - SampleSize_28: 268
+- SampleDuration_29: 64
 - SampleSize_29: 268
+- SampleDuration_30: 64
 - SampleSize_30: 268
+- SampleDuration_31: 64
 - SampleSize_31: 268
+- SampleDuration_32: 64
 - SampleSize_32: 268
+- SampleDuration_33: 64
 - SampleSize_33: 268
+- SampleDuration_34: 64
 - SampleSize_34: 268
+- SampleDuration_35: 64
 - SampleSize_35: 268
+- SampleDuration_36: 64
 - SampleSize_36: 268
+- SampleDuration_37: 64
 - SampleSize_37: 268
+- SampleDuration_38: 64
 - SampleSize_38: 268
+- SampleDuration_39: 64
 - SampleSize_39: 268
+- SampleDuration_40: 64
 - SampleSize_40: 268
+- SampleDuration_41: 64
 - SampleSize_41: 268
+- SampleDuration_42: 64
 - SampleSize_42: 268
+- SampleDuration_43: 64
 - SampleSize_43: 268
+- SampleDuration_44: 64
 - SampleSize_44: 268
+- SampleDuration_45: 64
 - SampleSize_45: 268
+- SampleDuration_46: 64
 - SampleSize_46: 268
+- SampleDuration_47: 64
 - SampleSize_47: 268
+- SampleDuration_48: 64
 - SampleSize_48: 268
+- SampleDuration_49: 64
 - SampleSize_49: 268
+- SampleDuration_50: 64
 - SampleSize_50: 268
+- SampleDuration_51: 64
 - SampleSize_51: 268
+- SampleDuration_52: 64
 - SampleSize_52: 268
+- SampleDuration_53: 64
 - SampleSize_53: 268
+- SampleDuration_54: 64
 - SampleSize_54: 268
+- SampleDuration_55: 64
 - SampleSize_55: 268
+- SampleDuration_56: 64
 - SampleSize_56: 268
+- SampleDuration_57: 64
 - SampleSize_57: 268
+- SampleDuration_58: 64
 - SampleSize_58: 268
+- SampleDuration_59: 64
 - SampleSize_59: 268
+- SampleDuration_60: 64
 - SampleSize_60: 268
+- SampleDuration_61: 64
 - SampleSize_61: 268
+- SampleDuration_62: 64
 - SampleSize_62: 268
+- SampleDuration_63: 64
 - SampleSize_63: 268
+- SampleDuration_64: 64
 - SampleSize_64: 268
+- SampleDuration_65: 64
 - SampleSize_65: 268
+- SampleDuration_66: 64
 - SampleSize_66: 268
+- SampleDuration_67: 64
 - SampleSize_67: 268
+- SampleDuration_68: 64
 - SampleSize_68: 268
+- SampleDuration_69: 64
 - SampleSize_69: 268
+- SampleDuration_70: 64
 - SampleSize_70: 268
+- SampleDuration_71: 64
 - SampleSize_71: 268
+- SampleDuration_72: 64
 - SampleSize_72: 268
+- SampleDuration_73: 64
 - SampleSize_73: 268
+- SampleDuration_74: 64
 - SampleSize_74: 268
+- SampleDuration_75: 64
 - SampleSize_75: 268
+- SampleDuration_76: 64
 - SampleSize_76: 268
+- SampleDuration_77: 64
 - SampleSize_77: 268
+- SampleDuration_78: 64
 - SampleSize_78: 268
+- SampleDuration_79: 64
 - SampleSize_79: 268
+- SampleDuration_80: 64
 - SampleSize_80: 268
+- SampleDuration_81: 64
 - SampleSize_81: 268
+- SampleDuration_82: 64
 - SampleSize_82: 268
+- SampleDuration_83: 64
 - SampleSize_83: 268
+- SampleDuration_84: 64
 - SampleSize_84: 268
+- SampleDuration_85: 64
 - SampleSize_85: 268
+- SampleDuration_86: 64
 - SampleSize_86: 268
+- SampleDuration_87: 64
 - SampleSize_87: 268
+- SampleDuration_88: 64
 - SampleSize_88: 268
+- SampleDuration_89: 64
 - SampleSize_89: 268
+- SampleDuration_90: 64
 - SampleSize_90: 268
+- SampleDuration_91: 64
 - SampleSize_91: 268
+- SampleDuration_92: 64
 - SampleSize_92: 268
+- SampleDuration_93: 64
 - SampleSize_93: 268
+- SampleDuration_94: 64
 - SampleSize_94: 268
+- SampleDuration_95: 64
 - SampleSize_95: 268
+- SampleDuration_96: 64
 - SampleSize_96: 268
+- SampleDuration_97: 64
 - SampleSize_97: 268
+- SampleDuration_98: 64
 - SampleSize_98: 268
+- SampleDuration_99: 64
 - SampleSize_99: 268
+- SampleDuration_100: 64
 - SampleSize_100: 268
+- SampleDuration_101: 64
 - SampleSize_101: 268
+- SampleDuration_102: 64
 - SampleSize_102: 268
+- SampleDuration_103: 64
 - SampleSize_103: 268
+- SampleDuration_104: 64
 - SampleSize_104: 268
+- SampleDuration_105: 64
 - SampleSize_105: 268
+- SampleDuration_106: 64
 - SampleSize_106: 268
+- SampleDuration_107: 64
 - SampleSize_107: 268
+- SampleDuration_108: 64
 - SampleSize_108: 268
+- SampleDuration_109: 64
 - SampleSize_109: 268
+- SampleDuration_110: 64
 - SampleSize_110: 268
+- SampleDuration_111: 64
 - SampleSize_111: 268
+- SampleDuration_112: 64
 - SampleSize_112: 268
+- SampleDuration_113: 64
 - SampleSize_113: 268
+- SampleDuration_114: 64
 - SampleSize_114: 268
+- SampleDuration_115: 64
 - SampleSize_115: 268
+- SampleDuration_116: 64
 - SampleSize_116: 268
+- SampleDuration_117: 64
 - SampleSize_117: 268
+- SampleDuration_118: 64
 - SampleSize_118: 268
+- SampleDuration_119: 64
 - SampleSize_119: 268
+- SampleDuration_120: 64
 - SampleSize_120: 268
+- SampleDuration_121: 56
 - SampleSize_121: 270
-- SampleSize_122: 270
-- SampleSize_123: 270
-- SampleSize_124: 270
+- SampleDuration_122: 63
+- SampleSize_122: 783
 ##
 #0
 MagicCodeOBU_0:
@@ -2908,12 +3028,12 @@ AudioFrameOBU_247:
 #0
 ParameterBlockOBU_248:
 - parameter_id: 100
-  duration: 64
+  duration: 56
   num_subblocks: 1
-  constant_subblock_duration: 64
+  constant_subblock_duration: 56
   subblocks:
   - mix_gain_parameter_data:
-      subblock_duration: 64
+      subblock_duration: 56
       animation_type: 0
       param_data:
         step:
@@ -2927,18 +3047,11 @@ AudioFrameOBU_249:
   size_of(audio_frame): 256
 ##
 #0
-ParameterBlockOBU_250:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
+AudioFrameOBU_250:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 64
+  size_of(audio_frame): 256
 ##
 #0
 AudioFrameOBU_251:
@@ -2946,39 +3059,4 @@ AudioFrameOBU_251:
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 64
   size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_252:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_253:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 64
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_254:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
 ##

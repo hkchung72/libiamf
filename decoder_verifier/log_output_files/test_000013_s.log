@@ -5,10 +5,10 @@ ftyp_0000000000000000:
 - CompatibleBrands: iso6iamf
 ##
 #1
-moov_0000000000008120:
+moov_0000000000008061:
 ##
 #1
-mvhd_0000000000008128:
+mvhd_0000000000008069:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -30,10 +30,10 @@ mvhd_0000000000008128:
 - NextTrackID: 2
 ##
 #1
-trak_0000000000008194:
+trak_00000000000080d5:
 ##
 #1
-tkhd_000000000000819c:
+tkhd_00000000000080dd:
 - Version: 0
 - Flags: 3
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -52,7 +52,7 @@ tkhd_000000000000819c:
 - TrackHeight: 0
 ##
 #1
-mdhd_0000000000008200:
+mdhd_0000000000008141:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -63,7 +63,7 @@ mdhd_0000000000008200:
 - Quality: 0
 ##
 #1
-hdlr_0000000000008220:
+hdlr_0000000000008161:
 - Version: 0
 - Flags: 0
 - PreDefined: 0
@@ -74,16 +74,16 @@ hdlr_0000000000008220:
 - Name: "ISO Media file produced by Google Inc. Created on: 04/18/2023."
 ##
 #1
-stbl_00000000000082ab:
+stbl_00000000000081ec:
 ##
 #1
-stsd_00000000000082b3:
+stsd_00000000000081f4:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 ##
 #1
-iamf_00000000000082c3:
+iamf_0000000000008204:
 - Reserved1: 0
 - Reserved2: 0
 - DataReferenceIndex: 1
@@ -96,10 +96,10 @@ iamf_00000000000082c3:
 - SampleRate: 16000
 ##
 #1
-iamd_00000000000082e7:
+iamd_0000000000008228:
 ##
 #1
-stts_0000000000008376:
+stts_00000000000082b3:
 - Version: 0
 - Flags: 0
 - EntryCount: 2
@@ -109,7 +109,7 @@ stts_0000000000008376:
 - SampleDelta_1: 64
 ##
 #1
-stsc_0000000000008396:
+stsc_00000000000082d3:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
@@ -118,81 +118,81 @@ stsc_0000000000008396:
 - SampleDescriptionIndex_0: 1
 ##
 #1
-stsz_00000000000083c6:
-- Version: 0
-- Flags: 0
-- SampleSize: 0
-- SampleCount: 63
-- EntrySize_0: 524
-- EntrySize_1: 524
-- EntrySize_2: 524
-- EntrySize_3: 524
-- EntrySize_4: 524
-- EntrySize_5: 524
-- EntrySize_6: 524
-- EntrySize_7: 524
-- EntrySize_8: 524
-- EntrySize_9: 524
-- EntrySize_10: 524
-- EntrySize_11: 524
-- EntrySize_12: 524
-- EntrySize_13: 524
-- EntrySize_14: 524
-- EntrySize_15: 524
-- EntrySize_16: 524
-- EntrySize_17: 524
-- EntrySize_18: 524
-- EntrySize_19: 524
-- EntrySize_20: 524
-- EntrySize_21: 524
-- EntrySize_22: 524
-- EntrySize_23: 524
-- EntrySize_24: 524
-- EntrySize_25: 524
-- EntrySize_26: 524
-- EntrySize_27: 524
-- EntrySize_28: 524
-- EntrySize_29: 524
-- EntrySize_30: 524
-- EntrySize_31: 524
-- EntrySize_32: 524
-- EntrySize_33: 524
-- EntrySize_34: 524
-- EntrySize_35: 524
-- EntrySize_36: 524
-- EntrySize_37: 524
-- EntrySize_38: 524
-- EntrySize_39: 524
-- EntrySize_40: 524
-- EntrySize_41: 524
-- EntrySize_42: 524
-- EntrySize_43: 524
-- EntrySize_44: 524
-- EntrySize_45: 524
-- EntrySize_46: 524
-- EntrySize_47: 524
-- EntrySize_48: 524
-- EntrySize_49: 524
-- EntrySize_50: 524
-- EntrySize_51: 524
-- EntrySize_52: 524
-- EntrySize_53: 524
-- EntrySize_54: 524
-- EntrySize_55: 524
-- EntrySize_56: 524
-- EntrySize_57: 524
-- EntrySize_58: 524
-- EntrySize_59: 524
-- EntrySize_60: 524
-- EntrySize_61: 524
-- EntrySize_62: 528
-##
-#1
-stco_00000000000083b2:
+stco_00000000000082ef:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 - ChunkOffset_0: 40
+##
+#1
+stsz_0000000000008303:
+- Version: 0
+- Flags: 0
+- SampleSize: 0
+- SampleCount: 63
+- EntrySize_0: 521
+- EntrySize_1: 521
+- EntrySize_2: 521
+- EntrySize_3: 521
+- EntrySize_4: 521
+- EntrySize_5: 521
+- EntrySize_6: 521
+- EntrySize_7: 521
+- EntrySize_8: 521
+- EntrySize_9: 521
+- EntrySize_10: 521
+- EntrySize_11: 521
+- EntrySize_12: 521
+- EntrySize_13: 521
+- EntrySize_14: 521
+- EntrySize_15: 521
+- EntrySize_16: 521
+- EntrySize_17: 521
+- EntrySize_18: 521
+- EntrySize_19: 521
+- EntrySize_20: 521
+- EntrySize_21: 521
+- EntrySize_22: 521
+- EntrySize_23: 521
+- EntrySize_24: 521
+- EntrySize_25: 521
+- EntrySize_26: 521
+- EntrySize_27: 521
+- EntrySize_28: 521
+- EntrySize_29: 521
+- EntrySize_30: 521
+- EntrySize_31: 521
+- EntrySize_32: 521
+- EntrySize_33: 521
+- EntrySize_34: 521
+- EntrySize_35: 521
+- EntrySize_36: 521
+- EntrySize_37: 521
+- EntrySize_38: 521
+- EntrySize_39: 521
+- EntrySize_40: 521
+- EntrySize_41: 521
+- EntrySize_42: 521
+- EntrySize_43: 521
+- EntrySize_44: 521
+- EntrySize_45: 521
+- EntrySize_46: 521
+- EntrySize_47: 521
+- EntrySize_48: 521
+- EntrySize_49: 521
+- EntrySize_50: 521
+- EntrySize_51: 521
+- EntrySize_52: 521
+- EntrySize_53: 521
+- EntrySize_54: 521
+- EntrySize_55: 521
+- EntrySize_56: 521
+- EntrySize_57: 521
+- EntrySize_58: 521
+- EntrySize_59: 521
+- EntrySize_60: 521
+- EntrySize_61: 521
+- EntrySize_62: 523
 ##
 #0
 MagicCodeOBU_0:
@@ -217,10 +217,9 @@ AudioElementOBU_2:
 - audio_element_id: 300
   audio_element_type: 0
   codec_config_id: 200
-  num_substreams: 2
+  num_substreams: 1
   audio_substream_ids:
   - 0
-  - 1
   num_parameters: 0
   scalable_channel_layout_config:
     num_layers: 1
@@ -228,8 +227,8 @@ AudioElementOBU_2:
     - loudspeaker_layout: 1
       output_gain_is_present_flag: 0
       recon_gain_is_present_flag: 0
-      substream_count: 2
-      coupled_substream_count: 0
+      substream_count: 1
+      coupled_substream_count: 1
 ##
 #0
 MixPresentationOBU_3:
@@ -249,6 +248,9 @@ MixPresentationOBU_3:
             parameter_id: 100
             parameter_rate: 16000
             param_definition_mode: 0
+            duration: 128
+            num_subblocks: 1
+            constant_subblock_duration: 128
           default_mix_gain: 0
     output_mix_config:
       output_mix_gain:
@@ -256,6 +258,9 @@ MixPresentationOBU_3:
           parameter_id: 100
           parameter_rate: 16000
           param_definition_mode: 0
+            duration: 128
+            num_subblocks: 1
+            constant_subblock_duration: 128
         default_mix_gain: 0
     num_layouts: 1
     layouts:
@@ -265,19 +270,15 @@ MixPresentationOBU_3:
           sound_system: 0
       loudness:
         info_type: 0
-        integrated_loudness: -13513
+        integrated_loudness: -13733
         digital_peak: -12879
 ##
 #0
 SyncOBU_4:
 - global_offset: 0
-  num_obu_ids: 3
+  num_obu_ids: 2
   sync_array:
   - obu_id: 0
-    obu_data_type: 0
-    reinitialize_decoder: 0
-    relative_offset: 0
-  - obu_id: 1
     obu_data_type: 0
     reinitialize_decoder: 0
     relative_offset: 0
@@ -291,17 +292,10 @@ AudioFrameOBU_5:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_6:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_7:
+ParameterBlockOBU_6:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -315,18 +309,32 @@ ParameterBlockOBU_7:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_8:
+AudioFrameOBU_7:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_8:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_9:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_10:
@@ -347,17 +355,10 @@ AudioFrameOBU_11:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_12:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_13:
+ParameterBlockOBU_12:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -371,18 +372,32 @@ ParameterBlockOBU_13:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_14:
+AudioFrameOBU_13:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_14:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_15:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_16:
@@ -403,17 +418,10 @@ AudioFrameOBU_17:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_18:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_19:
+ParameterBlockOBU_18:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -427,18 +435,32 @@ ParameterBlockOBU_19:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_20:
+AudioFrameOBU_19:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_20:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_21:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_22:
@@ -459,17 +481,10 @@ AudioFrameOBU_23:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_24:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_25:
+ParameterBlockOBU_24:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -483,18 +498,32 @@ ParameterBlockOBU_25:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_26:
+AudioFrameOBU_25:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_26:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_27:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_28:
@@ -515,17 +544,10 @@ AudioFrameOBU_29:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_30:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_31:
+ParameterBlockOBU_30:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -539,18 +561,32 @@ ParameterBlockOBU_31:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_32:
+AudioFrameOBU_31:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_32:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_33:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_34:
@@ -571,17 +607,10 @@ AudioFrameOBU_35:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_36:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_37:
+ParameterBlockOBU_36:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -595,18 +624,32 @@ ParameterBlockOBU_37:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_38:
+AudioFrameOBU_37:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_38:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_39:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_40:
@@ -627,17 +670,10 @@ AudioFrameOBU_41:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_42:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_43:
+ParameterBlockOBU_42:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -651,18 +687,32 @@ ParameterBlockOBU_43:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_44:
+AudioFrameOBU_43:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_44:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_45:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_46:
@@ -683,17 +733,10 @@ AudioFrameOBU_47:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_48:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_49:
+ParameterBlockOBU_48:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -707,18 +750,32 @@ ParameterBlockOBU_49:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_50:
+AudioFrameOBU_49:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_50:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_51:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_52:
@@ -739,17 +796,10 @@ AudioFrameOBU_53:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_54:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_55:
+ParameterBlockOBU_54:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -763,18 +813,32 @@ ParameterBlockOBU_55:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_56:
+AudioFrameOBU_55:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_56:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_57:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_58:
@@ -795,17 +859,10 @@ AudioFrameOBU_59:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_60:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_61:
+ParameterBlockOBU_60:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -819,18 +876,32 @@ ParameterBlockOBU_61:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_62:
+AudioFrameOBU_61:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_62:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_63:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_64:
@@ -851,17 +922,10 @@ AudioFrameOBU_65:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_66:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_67:
+ParameterBlockOBU_66:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -875,18 +939,32 @@ ParameterBlockOBU_67:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_68:
+AudioFrameOBU_67:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_68:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_69:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_70:
@@ -907,17 +985,10 @@ AudioFrameOBU_71:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_72:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_73:
+ParameterBlockOBU_72:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -931,18 +1002,32 @@ ParameterBlockOBU_73:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_74:
+AudioFrameOBU_73:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_74:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_75:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_76:
@@ -963,17 +1048,10 @@ AudioFrameOBU_77:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_78:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_79:
+ParameterBlockOBU_78:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -987,18 +1065,32 @@ ParameterBlockOBU_79:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_80:
+AudioFrameOBU_79:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_80:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_81:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_82:
@@ -1019,17 +1111,10 @@ AudioFrameOBU_83:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_84:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_85:
+ParameterBlockOBU_84:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1043,18 +1128,32 @@ ParameterBlockOBU_85:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_86:
+AudioFrameOBU_85:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_86:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_87:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_88:
@@ -1075,17 +1174,10 @@ AudioFrameOBU_89:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_90:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_91:
+ParameterBlockOBU_90:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1099,18 +1191,32 @@ ParameterBlockOBU_91:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_92:
+AudioFrameOBU_91:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_92:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_93:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_94:
@@ -1131,17 +1237,10 @@ AudioFrameOBU_95:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_96:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_97:
+ParameterBlockOBU_96:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1155,18 +1254,32 @@ ParameterBlockOBU_97:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_98:
+AudioFrameOBU_97:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_98:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_99:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_100:
@@ -1187,17 +1300,10 @@ AudioFrameOBU_101:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_102:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_103:
+ParameterBlockOBU_102:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1211,18 +1317,32 @@ ParameterBlockOBU_103:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_104:
+AudioFrameOBU_103:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_104:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_105:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_106:
@@ -1243,17 +1363,10 @@ AudioFrameOBU_107:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_108:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_109:
+ParameterBlockOBU_108:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1267,18 +1380,32 @@ ParameterBlockOBU_109:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_110:
+AudioFrameOBU_109:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_110:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_111:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_112:
@@ -1299,17 +1426,10 @@ AudioFrameOBU_113:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_114:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_115:
+ParameterBlockOBU_114:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1323,18 +1443,32 @@ ParameterBlockOBU_115:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_116:
+AudioFrameOBU_115:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_116:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_117:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_118:
@@ -1355,17 +1489,10 @@ AudioFrameOBU_119:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_120:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_121:
+ParameterBlockOBU_120:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1379,18 +1506,32 @@ ParameterBlockOBU_121:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_122:
+AudioFrameOBU_121:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_122:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_123:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_124:
@@ -1411,17 +1552,10 @@ AudioFrameOBU_125:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
 ##
 #0
-AudioFrameOBU_126:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_127:
+ParameterBlockOBU_126:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1
@@ -1435,609 +1569,35 @@ ParameterBlockOBU_127:
           start_point_value: 0
 ##
 #0
-AudioFrameOBU_128:
+AudioFrameOBU_127:
 - audio_substream_id: 0
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  size_of(audio_frame): 512
+##
+#0
+ParameterBlockOBU_128:
+- parameter_id: 100
+  duration: 128
+  num_subblocks: 1
+  constant_subblock_duration: 128
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 128
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
 ##
 #0
 AudioFrameOBU_129:
-- audio_substream_id: 1
+- audio_substream_id: 0
   num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
+  num_samples_to_trim_at_end: 64
+  size_of(audio_frame): 512
 ##
 #0
 ParameterBlockOBU_130:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_131:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_132:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_133:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_134:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_135:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_136:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_137:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_138:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_139:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_140:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_141:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_142:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_143:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_144:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_145:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_146:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_147:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_148:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_149:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_150:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_151:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_152:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_153:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_154:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_155:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_156:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_157:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_158:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_159:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_160:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_161:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_162:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_163:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_164:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_165:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_166:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_167:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_168:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_169:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_170:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_171:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_172:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_173:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_174:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_175:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_176:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_177:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_178:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_179:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_180:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_181:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_182:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_183:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_184:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_185:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_186:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_187:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_188:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_189:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 0
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_190:
-- parameter_id: 100
-  duration: 128
-  num_subblocks: 1
-  constant_subblock_duration: 128
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 128
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_191:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 64
-  size_of(audio_frame): 256
-##
-#0
-AudioFrameOBU_192:
-- audio_substream_id: 1
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 64
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_193:
 - parameter_id: 100
   duration: 128
   num_subblocks: 1

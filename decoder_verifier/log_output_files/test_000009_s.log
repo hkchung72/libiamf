@@ -5,10 +5,10 @@ ftyp_0000000000000000:
 - CompatibleBrands: iso6iamf
 ##
 #1
-moov_00000000000082fc:
+moov_00000000000082fb:
 ##
 #1
-mvhd_0000000000008304:
+mvhd_0000000000008303:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -30,10 +30,10 @@ mvhd_0000000000008304:
 - NextTrackID: 2
 ##
 #1
-trak_0000000000008370:
+trak_000000000000836f:
 ##
 #1
-tkhd_0000000000008378:
+tkhd_0000000000008377:
 - Version: 0
 - Flags: 3
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -52,7 +52,7 @@ tkhd_0000000000008378:
 - TrackHeight: 0
 ##
 #1
-mdhd_00000000000083dc:
+mdhd_00000000000083db:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
@@ -63,7 +63,7 @@ mdhd_00000000000083dc:
 - Quality: 0
 ##
 #1
-hdlr_00000000000083fc:
+hdlr_00000000000083fb:
 - Version: 0
 - Flags: 0
 - PreDefined: 0
@@ -74,16 +74,16 @@ hdlr_00000000000083fc:
 - Name: "ISO Media file produced by Google Inc. Created on: 04/18/2023."
 ##
 #1
-stbl_0000000000008487:
+stbl_0000000000008486:
 ##
 #1
-stsd_000000000000848f:
+stsd_000000000000848e:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 ##
 #1
-iamf_000000000000849f:
+iamf_000000000000849e:
 - Reserved1: 0
 - Reserved2: 0
 - DataReferenceIndex: 1
@@ -96,10 +96,10 @@ iamf_000000000000849f:
 - SampleRate: 16000
 ##
 #1
-iamd_00000000000084c3:
+iamd_00000000000084c2:
 ##
 #1
-stts_0000000000008544:
+stts_0000000000008543:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
@@ -107,7 +107,7 @@ stts_0000000000008544:
 - SampleDelta_0: 64
 ##
 #1
-stsc_000000000000855c:
+stsc_000000000000855b:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
@@ -116,13 +116,20 @@ stsc_000000000000855c:
 - SampleDescriptionIndex_0: 1
 ##
 #1
-stsz_000000000000858c:
+stco_0000000000008577:
+- Version: 0
+- Flags: 0
+- EntryCount: 1
+- ChunkOffset_0: 40
+##
+#1
+stsz_000000000000858b:
 - Version: 0
 - Flags: 0
 - SampleSize: 0
 - SampleCount: 125
 - EntrySize_0: 259
-- EntrySize_1: 269
+- EntrySize_1: 268
 - EntrySize_2: 268
 - EntrySize_3: 268
 - EntrySize_4: 268
@@ -247,13 +254,6 @@ stsz_000000000000858c:
 - EntrySize_123: 268
 - EntrySize_124: 268
 ##
-#1
-stco_0000000000008578:
-- Version: 0
-- Flags: 0
-- EntryCount: 1
-- ChunkOffset_0: 40
-##
 #0
 MagicCodeOBU_0:
 - ia_code: 1767992678
@@ -325,7 +325,7 @@ MixPresentationOBU_3:
       loudness:
         info_type: 0
         integrated_loudness: -13733
-        digital_peak: -21589
+        digital_peak: -12879
 ##
 #0
 SyncOBU_4:
@@ -360,7 +360,7 @@ ParameterBlockOBU_7:
 - parameter_id: 100
   duration: 64
   num_subblocks: 1
-  constant_subblock_duration: 0
+  constant_subblock_duration: 28
   subblocks:
   - mix_gain_parameter_data:
       subblock_duration: 28

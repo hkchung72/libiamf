@@ -1,0 +1,28 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+2625 item(s) of 2625 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+105 item(s) of 105 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+[Errno 2] No such file or directory: './ref_wav_files/ref_test_000036_f.wav'
+****************************************
+* log output file: ./log_output_files/test_000036_f.log
+* wav output file: ./wav_output_files/ss0_test_000036_f.wav
+* reference wav file: ./ref_wav_files/ref_test_000036_f.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream with the last layer being 5.1.
+is_valid: True
+primary_tested_spec_sections: ['3.7.2/channel_audio_layer_config']
+****************************************

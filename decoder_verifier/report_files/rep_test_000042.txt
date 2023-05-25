@@ -1,0 +1,34 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #242.
+failure line is #248.
+failure line is #272.
+failure line is #302.
+failure line is #308.
+failure line is #332.
+101 item(s) of 107 tests is/are passed.
+6 item(s) of 107 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: 100.76644106763212 dB
+ch#1 PSNR: 99.60848749594781 dB
+****************************************
+* log output file: ./log_output_files/test_000042.log
+* wav output file: ./wav_output_files/ss0_test_000042.wav
+* reference wav file: ./ref_wav_files/ref_test_000042.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `PROJECTION` with an (almost) identity
+demixing matrix.
+is_valid: True
+primary_tested_spec_sections: ['3.7.3/ambisonics_projection_config']
+****************************************

@@ -116,18 +116,18 @@ stsc_00000000000089cb:
 - SampleDescriptionIndex_0: 1
 ##
 #1
-stsz_00000000000089fb:
-- Version: 0
-- Flags: 0
-- SampleSize: 277
-- SampleCount: 125
-##
-#1
 stco_00000000000089e7:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 - ChunkOffset_0: 40
+##
+#1
+stsz_00000000000089fb:
+- Version: 0
+- Flags: 0
+- SampleSize: 277
+- SampleCount: 125
 ##
 #0
 MagicCodeOBU_0:
@@ -200,7 +200,7 @@ MixPresentationOBU_3:
       loudness:
         info_type: 0
         integrated_loudness: -13733
-        digital_peak: -21589
+        digital_peak: -12879
 ##
 #0
 SyncOBU_4:

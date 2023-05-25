@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+166 item(s) of 166 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: 98.26766633546612 dB
+ch#1 PSNR: 99.3397660319448 dB
+****************************************
+* log output file: ./log_output_files/test_000039.log
+* wav output file: ./wav_output_files/ss0_test_000039.wav
+* reference wav file: ./ref_wav_files/ref_test_000039.wav
+****************************************
+****************************************
+description:
+A third-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO`.
+is_valid: True
+primary_tested_spec_sections: ['3.7.3/ambisonics_mono_config']
+****************************************

@@ -5,16 +5,16 @@ ftyp_0000000000000000:
 - CompatibleBrands: iso6iamf
 ##
 #1
-moov_000000000000830c:
+moov_00000000000082f1:
 ##
 #1
-mvhd_0000000000008314:
+mvhd_00000000000082f9:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
 - ModificationTime: 2023-04-19 00:00:00 UTC
 - TimeScale: 1000
-- Duration: 500
+- Duration: 491
 - PreferedRate: 65536
 - PreferedVolume: 256
 - Reserved1: 0
@@ -30,17 +30,17 @@ mvhd_0000000000008314:
 - NextTrackID: 2
 ##
 #1
-trak_0000000000008380:
+trak_0000000000008365:
 ##
 #1
-tkhd_0000000000008388:
+tkhd_000000000000836d:
 - Version: 0
 - Flags: 3
 - CreationTime: 2023-04-19 00:00:00 UTC
 - ModificationTime: 2023-04-19 00:00:00 UTC
 - TrackID: 1
 - Reserved1: 0
-- Duration: 500
+- Duration: 491
 - Reserved2: 0
 - Reserved3: 0
 - Layer: 0
@@ -52,18 +52,18 @@ tkhd_0000000000008388:
 - TrackHeight: 0
 ##
 #1
-mdhd_00000000000083ec:
+mdhd_00000000000083d1:
 - Version: 0
 - Flags: 0
 - CreationTime: 2023-04-19 00:00:00 UTC
 - ModificationTime: 2023-04-19 00:00:00 UTC
 - TimeScale: 16000
-- Duration: 8000
+- Duration: 7863
 - Language: 21956
 - Quality: 0
 ##
 #1
-hdlr_000000000000840c:
+hdlr_00000000000083f1:
 - Version: 0
 - Flags: 0
 - PreDefined: 0
@@ -74,16 +74,16 @@ hdlr_000000000000840c:
 - Name: "ISO Media file produced by Google Inc. Created on: 04/18/2023."
 ##
 #1
-stbl_0000000000008497:
+stbl_000000000000847c:
 ##
 #1
-stsd_000000000000849f:
+stsd_0000000000008484:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 ##
 #1
-iamf_00000000000084af:
+iamf_0000000000008494:
 - Reserved1: 0
 - Reserved2: 0
 - DataReferenceIndex: 1
@@ -96,31 +96,42 @@ iamf_00000000000084af:
 - SampleRate: 16000
 ##
 #1
-iamd_00000000000084d3:
+iamd_00000000000084b8:
 ##
 #1
-stts_0000000000008553:
+stts_0000000000008538:
 - Version: 0
 - Flags: 0
-- EntryCount: 1
-- SampleCount_0: 125
+- EntryCount: 3
+- SampleCount_0: 121
 - SampleDelta_0: 64
+- SampleCount_1: 1
+- SampleDelta_1: 56
+- SampleCount_2: 1
+- SampleDelta_2: 63
 ##
 #1
-stsc_000000000000856b:
+stsc_0000000000008560:
 - Version: 0
 - Flags: 0
 - EntryCount: 1
 - FirstChunk_0: 1
-- SamplePerChunk_0: 125
+- SamplePerChunk_0: 123
 - SampleDescriptionIndex_0: 1
 ##
 #1
-stsz_000000000000859b:
+stco_000000000000857c:
+- Version: 0
+- Flags: 0
+- EntryCount: 1
+- ChunkOffset_0: 40
+##
+#1
+stsz_0000000000008590:
 - Version: 0
 - Flags: 0
 - SampleSize: 0
-- SampleCount: 125
+- SampleCount: 123
 - EntrySize_0: 268
 - EntrySize_1: 268
 - EntrySize_2: 268
@@ -243,16 +254,7 @@ stsz_000000000000859b:
 - EntrySize_119: 268
 - EntrySize_120: 268
 - EntrySize_121: 270
-- EntrySize_122: 270
-- EntrySize_123: 270
-- EntrySize_124: 270
-##
-#1
-stco_0000000000008587:
-- Version: 0
-- Flags: 0
-- EntryCount: 1
-- ChunkOffset_0: 40
+- EntrySize_122: 783
 ##
 #0
 MagicCodeOBU_0:
@@ -2892,12 +2894,12 @@ AudioFrameOBU_247:
 #0
 ParameterBlockOBU_248:
 - parameter_id: 100
-  duration: 64
+  duration: 56
   num_subblocks: 1
-  constant_subblock_duration: 64
+  constant_subblock_duration: 56
   subblocks:
   - mix_gain_parameter_data:
-      subblock_duration: 64
+      subblock_duration: 56
       animation_type: 0
       param_data:
         step:
@@ -2911,18 +2913,11 @@ AudioFrameOBU_249:
   size_of(audio_frame): 256
 ##
 #0
-ParameterBlockOBU_250:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
+AudioFrameOBU_250:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 64
+  size_of(audio_frame): 256
 ##
 #0
 AudioFrameOBU_251:
@@ -2930,39 +2925,4 @@ AudioFrameOBU_251:
   num_samples_to_trim_at_start: 0
   num_samples_to_trim_at_end: 64
   size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_252:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
-##
-#0
-AudioFrameOBU_253:
-- audio_substream_id: 0
-  num_samples_to_trim_at_start: 0
-  num_samples_to_trim_at_end: 64
-  size_of(audio_frame): 256
-##
-#0
-ParameterBlockOBU_254:
-- parameter_id: 100
-  duration: 64
-  num_subblocks: 1
-  constant_subblock_duration: 64
-  subblocks:
-  - mix_gain_parameter_data:
-      subblock_duration: 64
-      animation_type: 0
-      param_data:
-        step:
-          start_point_value: 0
 ##

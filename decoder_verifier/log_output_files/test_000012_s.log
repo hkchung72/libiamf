@@ -118,6 +118,13 @@ stsc_000000000000856d:
 - SampleDescriptionIndex_0: 1
 ##
 #1
+stco_0000000000008589:
+- Version: 0
+- Flags: 0
+- EntryCount: 1
+- ChunkOffset_0: 40
+##
+#1
 stsz_000000000000859d:
 - Version: 0
 - Flags: 0
@@ -249,13 +256,6 @@ stsz_000000000000859d:
 - EntrySize_123: 268
 - EntrySize_124: 270
 ##
-#1
-stco_0000000000008589:
-- Version: 0
-- Flags: 0
-- EntryCount: 1
-- ChunkOffset_0: 40
-##
 #0
 MagicCodeOBU_0:
 - ia_code: 1767992678
@@ -326,7 +326,7 @@ MixPresentationOBU_3:
           sound_system: 0
       loudness:
         info_type: 0
-        integrated_loudness: -13733
+        integrated_loudness: -13743
         digital_peak: -12879
 ##
 #0
@@ -2957,12 +2957,12 @@ AudioFrameOBU_253:
 #0
 ParameterBlockOBU_254:
 - parameter_id: 100
-  duration: 64
+  duration: 62
   num_subblocks: 1
-  constant_subblock_duration: 64
+  constant_subblock_duration: 62
   subblocks:
   - mix_gain_parameter_data:
-      subblock_duration: 64
+      subblock_duration: 62
       animation_type: 0
       param_data:
         step:

@@ -111,6 +111,12 @@ stsc_0000000000000297:
 - EntryCount: 0
 ##
 #1
+stco_00000000000002a7:
+- Version: 0
+- Flags: 0
+- EntryCount: 0
+##
+#1
 stsz_00000000000002b7:
 - Version: 0
 - Flags: 0
@@ -118,19 +124,13 @@ stsz_00000000000002b7:
 - SampleCount: 0
 ##
 #1
-stco_00000000000002a7:
-- Version: 0
-- Flags: 0
-- EntryCount: 0
+moof_0000000000000307:
 ##
 #1
-moof_00000000000002db:
+traf_000000000000031f:
 ##
 #1
-traf_00000000000002f3:
-##
-#1
-tfhd_00000000000002fb:
+tfhd_0000000000000327:
 - Version: 0
 - Flags: 131130
 - TrackID: 1
@@ -140,8 +140,8 @@ tfhd_00000000000002fb:
 - DefaultSampleFlag: 0
 ##
 #1
-trun_000000000000032b:
-- Version: 1
+trun_0000000000000357:
+- Version: 0
 - Flags: 1
 - SampleCount: 125
 - DataOffset: 134
@@ -217,7 +217,7 @@ MixPresentationOBU_3:
       loudness:
         info_type: 0
         integrated_loudness: -13733
-        digital_peak: -21589
+        digital_peak: -12879
 ##
 #0
 SyncOBU_4:
