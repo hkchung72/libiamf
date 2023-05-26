@@ -1,1 +1,1 @@
-wav output files from iamfplayer
+wav output files come from runtest.bat in /tests directory.
