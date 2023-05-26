@@ -1,0 +1,25 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+94 item(s) of 94 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000038.wav'
+****************************************
+* log output file: ../log_output_files/test_000038.log
+* wav output file: ../wav_output_files/ss0_test_000038.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000038.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO`.
+is_valid: True
+primary_tested_spec_sections: ['3.7.3/ambisonics_mono_config']
+****************************************

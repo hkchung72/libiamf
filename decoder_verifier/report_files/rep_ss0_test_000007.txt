@@ -1,0 +1,18 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for MagicCodeOBU
+ia_code
+  ia_code must be iamf (type=value_error)
+****************************************
+description:
+A stereo IAMF stream with which is invalid because `ia_code`
+is case-sensitive and should be lowercase.
+is_valid: False
+primary_tested_spec_sections: ['3.5/ia_code']
+****************************************

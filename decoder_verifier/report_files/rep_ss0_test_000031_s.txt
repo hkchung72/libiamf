@@ -1,0 +1,28 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+101 item(s) of 101 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000031_s.wav'
+****************************************
+* log output file: ../log_output_files/test_000031_s.log
+* wav output file: ../wav_output_files/ss0_test_000031_s.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000031_s.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with a bit-depth of 24.
+is_valid: True
+primary_tested_spec_sections: ['3.10', '3.13.4/sample_size']
+****************************************

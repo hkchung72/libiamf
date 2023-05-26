@@ -1,0 +1,32 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+failure line is #644.
+failure line is #650.
+158 item(s) of 160 tests is/are passed.
+2 item(s) of 160 tests is/are failed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+80 item(s) of 80 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000037_s.wav'
+****************************************
+* log output file: ../log_output_files/test_000037_s.log
+* wav output file: ../wav_output_files/ss0_test_000037_s.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000037_s.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream encoding ~22 seconds of audio using
+Opus.
+is_valid: True
+primary_tested_spec_sections: ['6']
+****************************************

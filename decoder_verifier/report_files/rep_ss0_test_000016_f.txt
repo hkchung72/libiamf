@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+231 item(s) of 231 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000016_f.wav'
+****************************************
+* log output file: ../log_output_files/test_000016_f.log
+* wav output file: ../wav_output_files/ss0_test_000016_f.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000016_f.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream. It has a parameter block not aligned
+with the audio frames, ending 100 samples earlier. This is
+invalid because parameter blocks should cover the whole
+duration of the audio frames that use the parameter.
+is_valid: False
+primary_tested_spec_sections: ['5.1.2']
+****************************************

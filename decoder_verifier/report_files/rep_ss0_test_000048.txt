@@ -1,0 +1,32 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #248.
+failure line is #254.
+failure line is #278.
+failure line is #308.
+failure line is #314.
+failure line is #338.
+94 item(s) of 100 tests is/are passed.
+6 item(s) of 100 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000048.wav'
+****************************************
+* log output file: ../log_output_files/test_000048.log
+* wav output file: ../wav_output_files/ss0_test_000048.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000048.wav
+****************************************
+****************************************
+description:
+A variant of `test_000042.textproto` that encodes in a
+projection mode with Opus as coupled stereo channels.
+is_valid: True
+primary_tested_spec_sections: ['3.7.3/ambisonics_projection_config']
+****************************************

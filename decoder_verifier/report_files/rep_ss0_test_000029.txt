@@ -1,0 +1,25 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000029.wav'
+****************************************
+* log output file: ../log_output_files/test_000029.log
+* wav output file: ../wav_output_files/ss0_test_000029.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000029.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream encoded using LPCM with a sample rate
+of 48 kHz.
+is_valid: True
+primary_tested_spec_sections: ['3.13.4/sample_rate']
+****************************************

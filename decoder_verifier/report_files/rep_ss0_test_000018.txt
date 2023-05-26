@@ -1,0 +1,25 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+bitwise comparison:
+[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000018.wav'
+****************************************
+* log output file: ../log_output_files/test_000018.log
+* wav output file: ../wav_output_files/ss0_test_000018.wav
+* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000018.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream. The substream has an ID larger than 21
+which requires the ID to be explicitly listed in the OBU.
+is_valid: True
+primary_tested_spec_sections: ['3.2/obu_type', '3.10/audio_frame_obu_with_no_id']
+****************************************

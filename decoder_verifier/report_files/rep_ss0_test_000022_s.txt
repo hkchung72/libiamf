@@ -1,0 +1,25 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+failure line is #644.
+failure line is #650.
+114 item(s) of 116 tests is/are passed.
+2 item(s) of 116 tests is/are failed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+80 item(s) of 80 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config -> roll_distance
+  value of roll_instance must be ceil(3840/num_samples_per_frame) = -4 (type=value_error)
+****************************************
+description:
+A stereo IAMF stream encoded using 20 ms Opus frames, but
+the roll distance is incorrect.
+is_valid: False
+primary_tested_spec_sections: ['3.6/roll_distance', '3.10', '3.13.1']
+****************************************
