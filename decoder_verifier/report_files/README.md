@@ -1,1 +1,1 @@
-report_files from runtest.bat
+report_files come from runtest.bat in testscript_files diectory.
