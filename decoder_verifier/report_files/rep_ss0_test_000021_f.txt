@@ -13,12 +13,13 @@ Valid Bitstream
 ****************************************
 * Decoded Audio Signal Check
 ****************************************
-bitwise comparison:
-[Errno 2] No such file or directory: '../ref_ss0_wav_files/ref_ss0_test_000021_f.wav'
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
 ****************************************
 * log output file: ../log_output_files/test_000021_f.log
 * wav output file: ../wav_output_files/ss0_test_000021_f.wav
-* reference wav file: ../ref_ss0_wav_files/ref_ss0_test_000021_f.wav
+* reference wav file: ../ref_wav_files/ref_ss0_test_000021_f.wav
 ****************************************
 ****************************************
 description:
