@@ -1,1 +1,1 @@
-wav output files come from runtest.bat in /tests directory.
+wav_output_files come from runtest.bat in /tests directory.
