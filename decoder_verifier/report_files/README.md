@@ -1,1 +1,1 @@
-report_files come from runtest.bat in testscript_files directory.
+report files come from runtest.bat in testscript_files directory.
