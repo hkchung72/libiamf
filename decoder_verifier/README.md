@@ -4,7 +4,7 @@
 --> test_000019_s.log is written.<BR>
     ss0_test_000019_s.wav is written.<BR>
 
-> python.exe test_000019_s.py --log test_000019_s.log --wav ss0_test_000019_s.wav --bitwise ref_test_000019_s.wav<BR>
+> python.exe test_000019_s.py --log test_000019_s.log --wav ss0_test_000019_s.wav --psnr ref_ss0_test_000019_s.wav<BR>
 --> call test_000019_s.py for verifying test_000019_s.log and ss0_test_000019_s.wav.<BR>
 
 please see the 4 directories to see verfication result.<BR>
