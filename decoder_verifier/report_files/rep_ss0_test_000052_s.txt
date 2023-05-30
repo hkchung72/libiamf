@@ -1,0 +1,33 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+failure line is #644.
+failure line is #650.
+123 item(s) of 125 tests is/are passed.
+2 item(s) of 125 tests is/are failed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+108 item(s) of 108 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ../log_output_files/test_000052_s.log
+* wav output file: ../wav_output_files/ss0_test_000052_s.wav
+* reference wav file: ../ref_wav_files/ref_ss0_test_000052_s.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream encoded using Opus with the last layer
+being 3.1.2.
+is_valid: True
+primary_tested_spec_sections: ['3.7.2/channel_audio_layer_config', '3.10', '3.13.1']
+****************************************

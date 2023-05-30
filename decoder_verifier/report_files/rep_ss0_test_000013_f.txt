@@ -1,0 +1,28 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+231 item(s) of 231 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #1761.
+failure line is #1773.
+failure line is #1818.
+77 item(s) of 80 tests is/are passed.
+3 item(s) of 80 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+2 validation errors for MixPresentationOBU
+sub_mixes -> 0 -> audio_elements -> 0 -> element_mix_config -> mix_gain -> param_definition -> __root__
+  duration, num_subblocks, constant_subblock_duration and subblock_durations exists according to the param_definition_mode value (type=value_error)
+sub_mixes -> 0 -> output_mix_config -> output_mix_gain -> param_definition -> __root__
+  duration, num_subblocks, constant_subblock_duration and subblock_durations exists according to the param_definition_mode value (type=value_error)
+****************************************
+description:
+A stereo IAMF stream with inconsistent values for
+`param_definition_mode` which should fail.
+is_valid: False
+primary_tested_spec_sections: ['4.1']
+****************************************

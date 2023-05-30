@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+108 item(s) of 108 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ../log_output_files/test_000049.log
+* wav output file: ../wav_output_files/ss0_test_000049.wav
+* reference wav file: ../ref_wav_files/ref_ss0_test_000049.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream encoded using Opus with the last layer
+being 5.1.
+is_valid: True
+primary_tested_spec_sections: ['3.7.2/channel_audio_layer_config', '3.10', '3.13.1']
+****************************************
