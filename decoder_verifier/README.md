@@ -20,6 +20,7 @@ please see the 4 directories to see verfication result.<BR>
 "decoder_verifier/log_output_files"<BR>
 "decoder_verifier/wav_output_files"<BR>
 "decoder_verifier/ref_audio_files"<BR>
+"decoder_verifier/report_files"<BR>
 "decoder_verifier/testscript_files"<BR>
 
 
