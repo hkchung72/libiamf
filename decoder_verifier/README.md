@@ -2,7 +2,7 @@
 
 > iamfplayer.exe -i0 -o2 -r 16000 -v ./test_000000_3.log -s0 test_000000_3.iamf<BR>
 --> 000000_3.log is written.<BR>
-    ss0_000000_3_s.wav is written.<BR>
+    ss0_000000_3.wav is written.<BR>
 
 > iamfplayer.exe -i1 -o2 -r 16000 -v ./test_000000_3_f.log -s0 test_000000_3_f.mp4<BR>
 --> test_000000_3_f.log is written.<BR>
