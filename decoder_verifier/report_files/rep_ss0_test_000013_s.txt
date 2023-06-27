@@ -1,0 +1,25 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+103 item(s) of 103 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #1362.
+failure line is #1374.
+69 item(s) of 71 tests is/are passed.
+2 item(s) of 71 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+__root__
+  param_definition_mode value shall be the same for same parameter_id (type=value_error)
+****************************************
+description:
+A stereo IAMF stream with inconsistent values for
+`param_definition_mode` which should fail.
+is_valid: False
+primary_tested_spec_sections: ['3.1']
+****************************************

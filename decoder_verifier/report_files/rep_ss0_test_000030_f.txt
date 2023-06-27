@@ -1,0 +1,29 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+795 item(s) of 795 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+68 item(s) of 68 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000030_f.log
+* wav output file: ./wav_output_files/ss0_test_000030_f.wav
+* reference wav file: ./ref_wav_files/ref_ss0_test_000030_f.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with a sample rate of 44.1 kHz.
+is_valid: True
+primary_tested_spec_sections: ['2.12.4/sample_rate']
+****************************************

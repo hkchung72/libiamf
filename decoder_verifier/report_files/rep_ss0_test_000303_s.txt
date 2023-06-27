@@ -1,0 +1,30 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+125 item(s) of 125 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+102 item(s) of 102 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000303_s.log
+* wav output file: ./wav_output_files/ss0_test_000303_s.wav
+* reference wav file: ./ref_wav_files/ref_ss0_test_000303_s.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics + stereo base profile IAMF stream
+encoded using Opus.
+is_valid: True
+primary_tested_spec_sections: ['2.8.4/default_mix_gain', '3.2', '7.5.1']
+****************************************

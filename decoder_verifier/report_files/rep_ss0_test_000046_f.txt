@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+166 item(s) of 166 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+100 item(s) of 100 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000046_f.log
+* wav output file: ./wav_output_files/ss0_test_000046_f.wav
+* reference wav file: ./ref_wav_files/ref_ss0_test_000046_f.wav
+****************************************
+****************************************
+description:
+A third-order ambisonics IAMF stream encoded using Opus and
+`ambisonics_mode` = `PROJECTION` with an (almost) identity
+demixing matrix.
+is_valid: True
+primary_tested_spec_sections: ['2.7.3/ambisonics_mono', '2.10', '2.12.1']
+****************************************

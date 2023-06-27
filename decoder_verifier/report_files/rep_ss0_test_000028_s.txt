@@ -1,0 +1,22 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+116 item(s) of 116 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+71 item(s) of 71 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config -> decoder_config_opus -> mapping_family
+  mapping_family must be 0 or 2 or 3 (type=value_error)
+****************************************
+description:
+A stereo IAMF stream encoded using Opus, with an incorrect
+`channel_mapping_family`.
+is_valid: False
+primary_tested_spec_sections: ['2.10', '2.12.1/channel_mapping_family']
+****************************************

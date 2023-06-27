@@ -1,0 +1,24 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+231 item(s) of 231 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+68 item(s) of 68 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+__root__
+  total_audio_frame_duration and total_parameter_duration must be equal (type=value_error)
+****************************************
+description:
+A stereo IAMF stream. It has a parameter block not aligned
+with the audio frames, ending 100 samples earlier. This is
+invalid because parameter blocks should cover the whole
+duration of the audio frames that use the parameter.
+is_valid: False
+primary_tested_spec_sections: ['4.1.2']
+****************************************

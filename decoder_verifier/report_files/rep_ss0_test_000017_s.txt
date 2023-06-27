@@ -1,0 +1,22 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+101 item(s) of 101 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+68 item(s) of 68 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+__root__
+  when num_samples_to_trim_at_end is non-zero, all audio_frame_obus following shall have no subsequent audio_frame_obus (type=value_error)
+****************************************
+description:
+A stereo IAMF stream. It is invalid because it has more than
+one frame of samples trimmed off the end.
+is_valid: False
+primary_tested_spec_sections: ['2.2/num_samples_to_trim_at_end']
+****************************************
