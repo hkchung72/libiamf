@@ -1,3 +1,8 @@
+## Build iamfplayer to support verifier<BR>
+
+Build iamfplayer with SUPPORT_VERIFIER=1 option.<BR>
+> cl.exe <--- /D "SUPPORT_VERIFIER=1"<BR>
+<BR>
 ## Usage<BR>
 
 > iamfplayer.exe -i0 -o2 -r 16000 -v ./test_000000_3.log -s0 test_000000_3.iamf<BR>
