@@ -1,0 +1,33 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+107 item(s) of 107 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+77 item(s) of 77 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.6632443863283 dB
+ch#1 PSNR: 99.6632443863283 dB
+average PSNR: 99.663244386328302
+****************************************
+* log output file: ./log_output_files/test_000088_s.log
+* [1] wav output file: ss0_test_000088_s.wav
+* [1] reference wav file: ref_test_000088.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with one mix gain parameter using
+default value. A different mix gain parameter uses
+`param_definition_mode == 0` with non-constant subblock
+duration.
+is_valid: True
+primary_tested_spec_sections: ['3.6.1/parameter_id', '3.6.1/parameter_rate', '3.6.1/param_definition_mode', '3.6.1/constant_subblock_duration == 0', '3.6.1/num_subblocks', '3.6.1/subblock_duration', '3.7.4/Element Mix Config Syntax and Semantics', '3.7.5/Output Mix Config Syntax and Semantics', '3.8.1/animation_type == STEP', '3.8.1/animation_type == LINEAR', '3.8.1/animation_type == BEZIER', '5.1/IA Sequence', '5.1.2/IA Data OBUs', '7/IAMF Processing', '7.4/animation_type == STEP', '7.5.1/Loudness Normalization', '7.5.2/Limiter']
+****************************************

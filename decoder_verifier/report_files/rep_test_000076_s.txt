@@ -1,0 +1,30 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+122 item(s) of 122 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+79 item(s) of 79 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 84.55036642484473 dB
+ch#1 PSNR: 84.55036642484473 dB
+average PSNR: 84.550366424844725
+****************************************
+* log output file: ./log_output_files/test_000076_s.log
+* [1] wav output file: ss0_test_000076_s.wav
+* [1] reference wav file: ref_test_000076.wav
+****************************************
+****************************************
+description:
+A frame-aligned stereo IAMF stream encoded with AAC.
+is_valid: True
+primary_tested_spec_sections: ['3.5/Codec Config OBU Syntax and Semantics', '3.11.2/AAC-LC Specific']
+****************************************

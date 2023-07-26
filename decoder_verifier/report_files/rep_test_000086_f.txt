@@ -1,0 +1,47 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+109 item(s) of 109 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+145 item(s) of 145 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 103.15780278644489 dB
+ch#1 PSNR: 103.16303661697653 dB
+ch#2 PSNR: 99.3473003345814 dB
+ch#3 PSNR: 99.37556148297553 dB
+ch#4 PSNR: 99.3475178643122 dB
+ch#5 PSNR: 99.34711906812848 dB
+average PSNR: 100.623056358903170
+[2] PSNR evaluation:
+ch#0 PSNR: 99.34943985028546 dB
+ch#1 PSNR: 99.34135873705891 dB
+ch#2 PSNR: 99.3473003345814 dB
+ch#3 PSNR: 99.37556148297553 dB
+ch#4 PSNR: 64.74440190017856 dB
+ch#5 PSNR: 66.93667695656598 dB
+ch#6 PSNR: 62.057146875541 dB
+ch#7 PSNR: 68.21315559170982 dB
+average PSNR: 82.420630216112073
+****************************************
+* log output file: ./log_output_files/test_000086_f.log
+* [1] wav output file: ss11_test_000086_f.wav
+* [2] wav output file: ss2_test_000086_f.wav
+* [1] reference wav file: ref_test_000086_0.wav
+* [2] reference wav file: ref_test_000086_1.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics + a 2 layer 5.1.2 base profile IAMF
+stream.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/loudspeaker_layout == 5.1.2', '3.6.3/ambisonics_mono_config', '3.7.4/default_mix_gain', '4.2/Base Profile', '8.5.1/Loudness Information']
+****************************************

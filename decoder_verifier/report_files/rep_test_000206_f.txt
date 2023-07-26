@@ -1,0 +1,36 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+577 item(s) of 577 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+82 item(s) of 82 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: inf
+ch#5 PSNR: inf
+ch#6 PSNR: inf
+ch#7 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000206_f.log
+* [1] wav output file: ss8_test_000206_f.wav
+* [1] reference wav file: ref_test_000206.wav
+****************************************
+****************************************
+description:
+A simple example of a 7.1 IAMF stream and no parameter
+blocks.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/loudspeaker_layout == 7.1']
+****************************************

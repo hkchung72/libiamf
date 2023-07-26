@@ -1,0 +1,27 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+85 item(s) of 85 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.3397660319448 dB
+ch#1 PSNR: 99.3397660319448 dB
+average PSNR: 99.339766031944805
+****************************************
+* log output file: ./log_output_files/test_000074.log
+* [1] wav output file: ss0_test_000074.wav
+* [1] reference wav file: ref_test_000074.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using FLAC and
+`ambisonics_mode` = `MONO`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.3/FLAC Specific']
+****************************************

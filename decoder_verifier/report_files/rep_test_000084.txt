@@ -1,0 +1,18 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+80 item(s) of 80 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config -> audio_roll_distance
+  'audio_roll_distance' SHALL be set to 0 when 'codec_id' is set to 'fLac' or 'ipcm' (type=value_error)
+****************************************
+description:
+A frame-aligned stereo IAMF stream encoded with FLAC with an
+invalid roll distance.
+is_valid: False
+primary_tested_spec_sections: ['3.5/audio_roll_distance != 0', '3.11.3/FLAC Specific']
+****************************************
