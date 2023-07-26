@@ -1,0 +1,27 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000079.log
+* [1] wav output file: ss0_test_000079.wav
+* [1] reference wav file: ref_test_000079.wav
+****************************************
+****************************************
+description:
+A simple example of a stereo IAMF stream with an extra
+redundant sequence header inserted before the initial
+descriptor OBUs.
+is_valid: True
+primary_tested_spec_sections: ['3.2/obu_redundant_copy']
+****************************************

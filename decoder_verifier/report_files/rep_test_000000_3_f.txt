@@ -1,0 +1,24 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+233 item(s) of 233 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+  Value error, all audio_frame_obus shall have the same size_of_audio_frame [type=value_error, input_value={'descriptor': Descriptor...oral_delimiter_obus=[])}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A simple profile stereo IAMF stream with 1 substream. The
+final audio frame incorrectly has fewer samples than all
+other frames because it does not have sufficient
+`num_samples_to_trim_at_end`
+is_valid: False
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end', '3.4/IA Sequence Header OBU Syntax and Semantics', '3.5/num_samples_per_frame', '6.2.2/ia_sample_duration']
+****************************************

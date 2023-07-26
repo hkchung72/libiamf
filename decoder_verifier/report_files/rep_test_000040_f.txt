@@ -1,0 +1,24 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+109 item(s) of 109 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for AudioElementOBU
+ambisonics_config.ambisonics_mono_config.output_channel_count
+  Value error, 'output_channel_count' must be one of the following: [1, 4, 9, 16] [type=value_error, input_value=3, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO`. That has a wrong number of
+channels for an ambisonic audio stream.
+is_valid: False
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config']
+****************************************

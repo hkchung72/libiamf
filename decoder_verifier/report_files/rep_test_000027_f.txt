@@ -1,0 +1,23 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+168 item(s) of 168 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config.decoder_config_opus.output_gain
+  Value error, 'output_gain' SHALL be set to 0dB [type=value_error, input_value=1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream encoded using Opus, with an incorrect
+`output_gain`.
+is_valid: False
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/output_gain']
+****************************************

@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000018.log
+* [1] wav output file: ss0_test_000018.wav
+* [1] reference wav file: ref_test_000018.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream. The substream has an ID larger than 21
+which requires the ID to be explicitly listed in the OBU.
+is_valid: True
+primary_tested_spec_sections: ['3.1/obu_type', '3.9/explicit_audio_substream_id']
+****************************************

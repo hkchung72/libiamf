@@ -1,0 +1,34 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+143 item(s) of 143 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+79 item(s) of 79 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+5 validation errors for CodecConfigOBU
+codec_config.decoder_config_aac.buffer_size_db
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.max_bitrate
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.average_bit_rate
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.decoder_specific_info.sample_frequency_index
+  Field required [type=missing, input_value={'decoder_specific_info_d...annel_configuration': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.decoder_specific_info.sampling_frequency
+  Field required [type=missing, input_value={'decoder_specific_info_d...annel_configuration': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+****************************************
+description:
+A frame-aligned stereo IAMF stream encoded with AAC.
+is_valid: True
+primary_tested_spec_sections: ['3.5/Codec Config OBU Syntax and Semantics', '3.11.2/AAC-LC Specific']
+****************************************
