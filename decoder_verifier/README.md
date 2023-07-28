@@ -1,7 +1,10 @@
 ## Build iamfplayer to support verifier<BR>
 
 Build iamfplayer with SUPPORT_VERIFIER=1 option.<BR>
-> cl.exe <--- /D "SUPPORT_VERIFIER=1"<BR>
+> 1. open code/win32/VS2015/iamf.sln in Visual Studio IDE <BR>
+> 2. add SUPPORT_VERIFIER=1 to preprocessor definition property of iamf project  <BR>
+> 3. add SUPPORT_VERIFIER=1 to preprocessor definition property of iamfplayer project  <BR>
+> 4. build all <BR>
 <BR>
 
 ## Usage<BR>
