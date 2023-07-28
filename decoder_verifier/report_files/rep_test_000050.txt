@@ -1,0 +1,68 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+140 item(s) of 140 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 54.3602194199041 dB
+ch#1 PSNR: 48.81485401942824 dB
+average PSNR: 51.587536719666168
+[2] PSNR evaluation:
+ch#0 PSNR: 54.17707891947511 dB
+ch#1 PSNR: 48.86906806396688 dB
+ch#2 PSNR: 61.9625065565578 dB
+ch#3 PSNR: 54.32572092331618 dB
+ch#4 PSNR: 56.499278970264804 dB
+ch#5 PSNR: 54.2540638715985 dB
+average PSNR: 55.014619550863209
+[3] PSNR evaluation:
+ch#0 PSNR: 63.00690107885042 dB
+ch#1 PSNR: 55.71220584136483 dB
+ch#2 PSNR: 61.9625065565578 dB
+ch#3 PSNR: 54.32572092331618 dB
+ch#4 PSNR: 61.44504632667659 dB
+ch#5 PSNR: 53.827125281392924 dB
+ch#6 PSNR: 48.342873610654095 dB
+ch#7 PSNR: 42.506681858675236 dB
+ch#8 PSNR: 56.499278970264804 dB
+ch#9 PSNR: 54.2540638715985 dB
+average PSNR: 55.188240431935142
+[4] PSNR evaluation:
+ch#0 PSNR: 63.00690107885042 dB
+ch#1 PSNR: 55.71220584136483 dB
+ch#2 PSNR: 61.9625065565578 dB
+ch#3 PSNR: 54.32572092331618 dB
+ch#4 PSNR: 61.44504632667659 dB
+ch#5 PSNR: 53.827125281392924 dB
+ch#6 PSNR: 48.342873610654095 dB
+ch#7 PSNR: 42.506681858675236 dB
+ch#8 PSNR: 58.71000411401887 dB
+ch#9 PSNR: 58.155153980430995 dB
+ch#10 PSNR: 52.762505486184295 dB
+ch#11 PSNR: 51.09621199293613 dB
+average PSNR: 55.154411420921527
+****************************************
+* log output file: ./log_output_files/test_000050.log
+* [1] wav output file: ss0_test_000050.wav
+* [2] wav output file: ss11_test_000050.wav
+* [3] wav output file: ss10_test_000050.wav
+* [4] wav output file: ss9_test_000050.wav
+* [1] reference wav file: ref_test_000050_0.wav
+* [2] reference wav file: ref_test_000050_1.wav
+* [3] reference wav file: ref_test_000050_2.wav
+* [4] reference wav file: ref_test_000050_3.wav
+****************************************
+****************************************
+description:
+A 4-layer IAMF stream encoded using Opus with the last layer
+being 7.1.4 and `default_w == 0` with
+`headphones_rendering_mode == 0`.
+is_valid: True
+primary_tested_spec_sections: ['3.6/default_w', '3.6.2/channel_audio_layer_config', '3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 7.1.2', '3.6.2/loudspeaker_layout == 7.1.4', '3.6.2/num_layers', '3.7.3/headphones_rendering_mode == 0', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific', '6/ISOBMFF IAMF Encapsulation', '7/IAMF Processing', '7.3.2/Rendering an Audio Element', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers']
+****************************************

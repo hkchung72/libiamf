@@ -1,0 +1,19 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config.audio_roll_distance
+  Value error, 'audio_roll_distance' SHALL be set to 0 when 'codec_id' is set to 'fLac' or 'ipcm' [type=value_error, input_value=-1, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A frame-aligned LPCM stereo IAMF stream with no trimming
+with an invalid roll distance.
+is_valid: False
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end', '3.5/audio_roll_distance != 0', '3.11.4/LPCM Specific']
+****************************************

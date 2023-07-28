@@ -1,0 +1,27 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 30.829890273775618 dB
+ch#1 PSNR: 30.829740945727085 dB
+average PSNR: 30.829815609751350
+****************************************
+* log output file: ./log_output_files/test_000112.log
+* [1] wav output file: ss0_test_000112.wav
+* [1] reference wav file: ref_test_000112.wav
+****************************************
+****************************************
+description:
+A zero-order ambisonics IAMF stream encoded using Opus and
+`ambisonics_mode` = `PROJECTION`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_projection_config', '3.11.1/OPUS Specific']
+****************************************

@@ -1,0 +1,47 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+133 item(s) of 133 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+124 item(s) of 124 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 42.06922328312034 dB
+ch#1 PSNR: 45.34968255909814 dB
+ch#2 PSNR: 52.5723931511287 dB
+ch#3 PSNR: 68.04701400257555 dB
+ch#4 PSNR: 46.51868968766557 dB
+ch#5 PSNR: 44.18021712689199 dB
+average PSNR: 49.789536635080054
+[2] PSNR evaluation:
+ch#0 PSNR: 43.36288746351785 dB
+ch#1 PSNR: 46.571991040348635 dB
+ch#2 PSNR: 52.5723931511287 dB
+ch#3 PSNR: 68.04701400257555 dB
+ch#4 PSNR: 39.490902650653325 dB
+ch#5 PSNR: 41.31540401266767 dB
+ch#6 PSNR: 46.4713662096645 dB
+ch#7 PSNR: 44.180770814993664 dB
+average PSNR: 47.751591168193734
+****************************************
+* log output file: ./log_output_files/test_000227_s.log
+* [1] wav output file: ss11_test_000227_s.wav
+* [2] wav output file: ss2_test_000227_s.wav
+* [1] reference wav file: ref_test_000227_0.wav
+* [2] reference wav file: ref_test_000227_1.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream scalable encoded using Opus with the
+channel layouts: 3.1.2ch/5.1.2ch
+is_valid: True
+primary_tested_spec_sections: ['3.6/num_parameters', '3.6.2/Scalable Channel Layout Config Syntax and Semantics', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 5.1.2', '3.6.2/output_gain_is_present_flag', '3.6.2/output_gain_flags', '3.6.2/output_gain', '3.8/recon_gain_info_parameter_data', '3.8.3/Recon Gain Info Parameter Data Syntax and Semantics', '7/IAMF Processing', '7.2.1/Gain', '7.2.3/Recon Gain', '7.6.1/Dynamic Down-mix Matrix', '10.2.2/Annex B-2: Down-mix Mechanism', '10.2.3/Annex B-3: Channel Layout Generation Rule', '10.2.4/Annex B-4: Recon Gain Generation', '10.2.5/Annex B-5: ChannelGroup Generation Rule']
+****************************************

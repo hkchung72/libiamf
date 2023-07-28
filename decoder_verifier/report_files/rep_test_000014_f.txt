@@ -1,0 +1,22 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+908 item(s) of 908 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+  Value error, 'pre_skip' must be same as the number of audio samples to be 'trimmed at the start' [type=value_error, input_value={'descriptor': Descriptor...oral_delimiter_obus=[])}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream with no trimming encoded using Opus. It
+is invalid because `pre_skip` is incorrectly set to 0.
+is_valid: False
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/pre_skip']
+****************************************

@@ -1,0 +1,25 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000031.log
+* [1] wav output file: ss0_test_000031.wav
+* [1] reference wav file: ref_test_000031.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with a bit-depth of 24.
+is_valid: True
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.4/sample_size']
+****************************************

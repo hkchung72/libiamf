@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000003.log
+* [1] wav output file: ss0_test_000003.wav
+* [1] reference wav file: ref_test_000003.wav
+****************************************
+****************************************
+description:
+A simple example of a stereo IAMF stream with 1 substream
+and no parameter blocks.
+is_valid: True
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end', '3.6.2/num_layers', '3.6.2/loudspeaker_layout == Stereo', '3.7.4/default_mix_gain', '3.11.4/LPCM Specific', '4.1/Simple Profile', '5.1/IA Sequence', '5.1.1/Descriptor OBUs', '5.1.2/IA Data OBUs', '6.2.2/edst', '6.2.2/elst', '6.2.2/stts', '6.2.2/trun']
+****************************************

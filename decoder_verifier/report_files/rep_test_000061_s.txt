@@ -1,0 +1,29 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+124 item(s) of 124 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+111 item(s) of 111 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+[Errno 2] No such file or directory: './ref_wav_files\\ref_test_000061.wav'
+****************************************
+* log output file: ./log_output_files/test_000061_s.log
+* [1] wav output file: ss1_test_000061_s.wav
+* [1] reference wav file: ref_test_000061.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream encoded using Opus with the last layer
+being 5.1.0 with Demixing Parameter Block OBUs.
+is_valid: True
+primary_tested_spec_sections: ['3.6.1/param_definition_mode', '3.6.1/parameter_rate', '3.6.2/channel_audio_layer_config', '3.8/demixing_info_parameter_data', '3.8.2/Demixing Info Parameter Data Syntax and Semantics', '7/IAMF Processing', '7.2/demixing', '7.2.2/De-mixer', '7.3.2/Rendering an Audio Element', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers']
+****************************************

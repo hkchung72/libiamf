@@ -1,0 +1,23 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+103 item(s) of 103 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for MixPresentationOBU
+sub_mixes.0.layouts.0.loudness.anchored_loudness.anchor_elements
+  Value error, 'anchor_element' SHALL NOT be duplicated in one AnchoredLoudness [type=value_error, input_value=[{'anchor_element': 1, 'a...chored_loudness': 1001}], input_type=list]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream with anchored loudness provided. It is
+invalid because anchor elements must be unique.
+is_valid: False
+primary_tested_spec_sections: ['3.7.7/integrated_loudness', '3.7.7/digital_peak', '3.7.7/info_type', '3.7.7/num_anchored_loudness']
+****************************************

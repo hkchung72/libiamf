@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+71 item(s) of 71 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000067.log
+* [1] wav output file: ss0_test_000067.wav
+* [1] reference wav file: ref_test_000067.wav
+****************************************
+****************************************
+description:
+A frame-aligned stereo IAMF stream with extra bytes in
+`rendering_config_extension`.
+is_valid: True
+primary_tested_spec_sections: ['3.7.3/rendering_config_extension_bytes']
+****************************************

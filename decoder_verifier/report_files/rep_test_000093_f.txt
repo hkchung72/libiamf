@@ -1,0 +1,36 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+168 item(s) of 168 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+84 item(s) of 84 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+5 validation errors for CodecConfigOBU
+codec_config.decoder_config_aac.buffer_size_db
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.max_bitrate
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.average_bit_rate
+  Field required [type=missing, input_value={'decoder_config_descript...0, 'extension_flag': 0}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.decoder_specific_info.sample_frequency_index
+  Field required [type=missing, input_value={'decoder_specific_info_d...annel_configuration': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+codec_config.decoder_config_aac.decoder_specific_info.sampling_frequency
+  Field required [type=missing, input_value={'decoder_specific_info_d...annel_configuration': 2}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/missing
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO` with `headphones_rendering_mode
+== 0`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config', '3.7.3/headphones_rendering_mode == 0', '3.11.2/AAC-LC Specific', '7/IAMF Processing', '7.1/channel_mapping', '7.3/Mix Presentation', '7.3.2/Rendering an Audio Element', '7.3.2.2/Rendering a Scene-Based Audio Element to Loudspeakers']
+****************************************

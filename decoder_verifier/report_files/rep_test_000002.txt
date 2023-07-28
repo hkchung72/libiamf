@@ -1,0 +1,25 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000002.log
+* [1] wav output file: ss0_test_000002.wav
+* [1] reference wav file: ref_test_000002.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with a no-op Parameter Block OBU added.
+is_valid: True
+primary_tested_spec_sections: ['3.8/Parameter Block OBU Syntax and Semantics', '3.8.1/animation_type == STEP', '6.1/FileTypeBox', '6.1/IASampleEntry', '6.2.1/Requirement of IA Sequence', '6.2.2/stts', '6.2.2/trun', '6.2.3/IASampleEntry', '6.2.3/channelcount', '6.2.3/samplerate', '6.2.4/IA Sample Format', '7/IAMF Processing', '7.4/animation_type == STEP']
+****************************************

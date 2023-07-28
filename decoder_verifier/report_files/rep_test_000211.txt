@@ -1,0 +1,47 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+100 item(s) of 100 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.332461554378 dB
+ch#1 PSNR: 99.32134762790773 dB
+average PSNR: 99.326904591142863
+[2] PSNR evaluation:
+ch#0 PSNR: 99.32971651265117 dB
+ch#1 PSNR: 99.33672703409668 dB
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: 99.48157330922893 dB
+ch#5 PSNR: 99.36229912618272 dB
+average PSNR: 99.377578995539892
+[3] PSNR evaluation:
+ch#0 PSNR: 99.3502741843954 dB
+ch#1 PSNR: 99.33470221630769 dB
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: 99.35038302240156 dB
+ch#5 PSNR: 99.3348106647606 dB
+average PSNR: 99.342542521966308
+****************************************
+* log output file: ./log_output_files/test_000211.log
+* [1] wav output file: ss0_test_000211.wav
+* [2] wav output file: ss11_test_000211.wav
+* [3] wav output file: ss1_test_000211.wav
+* [1] reference wav file: ref_test_000211_0.wav
+* [2] reference wav file: ref_test_000211_1.wav
+* [3] reference wav file: ref_test_000211_2.wav
+****************************************
+****************************************
+description:
+A 7.1.4 IAMF stream to use libear or static down-mix matrix
+for demixing
+is_valid: True
+primary_tested_spec_sections: ['7/IAMF Processing', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers', '7.5.1/Loudness Normalization', '7.5.2/Limiter', '7.6.2/Static Down-mix Matrix']
+****************************************
