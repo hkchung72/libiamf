@@ -1,0 +1,65 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+133 item(s) of 133 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #3222.
+140 item(s) of 141 tests is/are passed.
+1 item(s) of 141 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 40.79613924147236 dB
+ch#1 PSNR: 43.37506132781104 dB
+ch#2 PSNR: 45.07809218412455 dB
+ch#3 PSNR: 67.02464116408447 dB
+ch#4 PSNR: 43.79705582523356 dB
+ch#5 PSNR: 40.23779402190535 dB
+average PSNR: 46.718130627438562
+[2] PSNR evaluation:
+ch#0 PSNR: 43.36288746351785 dB
+ch#1 PSNR: 46.571991040348635 dB
+ch#2 PSNR: 45.07809218412455 dB
+ch#3 PSNR: 67.02464116408447 dB
+ch#4 PSNR: 37.16772624978 dB
+ch#5 PSNR: 39.47251402291552 dB
+ch#6 PSNR: 43.78569945439824 dB
+ch#7 PSNR: 40.23884770455149 dB
+average PSNR: 45.337799910465094
+[3] PSNR evaluation:
+ch#0 PSNR: 43.36288746351785 dB
+ch#1 PSNR: 46.571991040348635 dB
+ch#2 PSNR: 45.07809218412455 dB
+ch#3 PSNR: 67.02464116408447 dB
+ch#4 PSNR: 48.850615643547435 dB
+ch#5 PSNR: 50.451583357632686 dB
+ch#6 PSNR: 37.02829477746316 dB
+ch#7 PSNR: 39.85708331428045 dB
+ch#8 PSNR: 46.51868968766557 dB
+ch#9 PSNR: 44.18021712689199 dB
+ch#10 PSNR: 40.335285855511714 dB
+ch#11 PSNR: 39.772014630303886 dB
+average PSNR: 45.752616353781036
+****************************************
+* log output file: ./log_output_files/test_000228_s.log
+* [1] wav output file: ss11_test_000228_s.wav
+* [2] wav output file: ss2_test_000228_s.wav
+* [3] wav output file: ss9_test_000228_s.wav
+* [1] reference wav file: ref_test_000228_0.wav
+* [2] reference wav file: ref_test_000228_1.wav
+* [3] reference wav file: ref_test_000228_2.wav
+****************************************
+****************************************
+description:
+A 3-layer IAMF stream scalable encoded using Opus with the
+channel layouts: 3.1.2ch/5.1.2ch/7.1.4ch
+is_valid: True
+primary_tested_spec_sections: ['3.6/num_parameters', '3.6.2/Scalable Channel Layout Config Syntax and Semantics', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 5.1.2', '3.6.2/loudspeaker_layout == 7.1.4', '3.6.2/output_gain_is_present_flag', '3.6.2/output_gain_flags', '3.6.2/output_gain', '3.6.2.1/Channel Layout Generation Rule', '3.8/recon_gain_info_parameter_data', '3.8.3/Recon Gain Info Parameter Data Syntax and Semantics', '7/IAMF Processing', '7.2.1/Gain', '7.2.3/Recon Gain', '7.6.1/Dynamic Down-mix Matrix', '9.1.2.2/Annex A2.2: Down-mix Mechanism', '9.1.2.3/Annex A2.3: Recon Gain Generation', '9.1.2.4/Annex A2.4: Channel Group Generation Rule']
+****************************************

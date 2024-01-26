@@ -1,0 +1,33 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+577 item(s) of 577 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #3940.
+failure line is #3946.
+68 item(s) of 70 tests is/are passed.
+2 item(s) of 70 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000231_f.log
+* [1] wav output file: ss0_test_000231_f.wav
+* [1] reference wav file: ref_test_000231.wav
+****************************************
+****************************************
+description:
+A simple example of a 32bit stereo IAMF stream and no
+parameter blocks.
+is_valid: True
+primary_tested_spec_sections: ['3.11.4/sample_size']
+****************************************

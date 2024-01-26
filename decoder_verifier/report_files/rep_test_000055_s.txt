@@ -1,0 +1,53 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+133 item(s) of 133 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+125 item(s) of 125 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 59.994049016552644 dB
+ch#1 PSNR: 52.805833726954134 dB
+average PSNR: 56.399941371753386
+[2] PSNR evaluation:
+ch#0 PSNR: 68.05091642271947 dB
+ch#1 PSNR: 59.68531698710284 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 55.447447326303596 dB
+ch#5 PSNR: 49.464666565227446 dB
+average PSNR: 57.733476934778629
+[3] PSNR evaluation:
+ch#0 PSNR: 68.05091642271947 dB
+ch#1 PSNR: 59.68531698710284 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 55.447447326303596 dB
+ch#5 PSNR: 49.464666565227446 dB
+ch#6 PSNR: 62.85434144717854 dB
+ch#7 PSNR: 61.846246086094666 dB
+average PSNR: 58.887681142743119
+****************************************
+* log output file: ./log_output_files/test_000055_s.log
+* [1] wav output file: ss0_test_000055_s.wav
+* [2] wav output file: ss1_test_000055_s.wav
+* [3] wav output file: ss2_test_000055_s.wav
+* [1] reference wav file: ref_test_000055_0.wav
+* [2] reference wav file: ref_test_000055_1.wav
+* [3] reference wav file: ref_test_000055_2.wav
+****************************************
+****************************************
+description:
+A 3-layer IAMF stream encoded using Opus with the last layer
+being 5.1.2.
+is_valid: True
+primary_tested_spec_sections: ['3.6/param_definition_type', '3.6.2/channel_audio_layer_config', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific']
+****************************************

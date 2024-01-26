@@ -1,0 +1,46 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+118 item(s) of 118 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+112 item(s) of 112 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: inf
+ch#5 PSNR: inf
+[2] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: 85.48692446510195 dB
+ch#5 PSNR: 88.73964103884194 dB
+ch#6 PSNR: 83.23639886375135 dB
+ch#7 PSNR: 90.42373643912799 dB
+average PSNR: 86.971675201705807
+****************************************
+* log output file: ./log_output_files/test_000224_s.log
+* [1] wav output file: ss11_test_000224_s.wav
+* [2] wav output file: ss2_test_000224_s.wav
+* [1] reference wav file: ref_test_000224_0.wav
+* [2] reference wav file: ref_test_000224_1.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream scalable encoded with the channel
+layouts: 3.1.2ch/5.1.2ch
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/channel_audio_layer_config', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 5.1.2', '3.6.2/output_gain_is_present_flag', '3.6.2/output_gain_flags', '3.6.2/output_gain', '3.6.2.1/Channel Layout Generation Rule', '7.2.1/Gain', '7.6.1/Dynamic Down-mix Matrix', '9.1.2.2/Annex A2.2: Down-mix Mechanism', '9.1.2.4/Annex A2.4: Channel Group Generation Rule']
+****************************************

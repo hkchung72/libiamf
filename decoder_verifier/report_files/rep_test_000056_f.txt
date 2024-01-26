@@ -1,0 +1,41 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+618 item(s) of 618 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+111 item(s) of 111 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 59.994049016552644 dB
+ch#1 PSNR: 52.805833726954134 dB
+average PSNR: 56.399941371753386
+[2] PSNR evaluation:
+ch#0 PSNR: 68.05091642271947 dB
+ch#1 PSNR: 59.68531698710284 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 55.447447326303596 dB
+ch#5 PSNR: 49.464666565227446 dB
+average PSNR: 57.733476934778629
+****************************************
+* log output file: ./log_output_files/test_000056_f.log
+* [1] wav output file: ss0_test_000056_f.wav
+* [2] wav output file: ss1_test_000056_f.wav
+* [1] reference wav file: ref_test_000056_0.wav
+* [2] reference wav file: ref_test_000056_1.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream encoded using Opus with the last layer
+being 5.1.0.
+is_valid: True
+primary_tested_spec_sections: ['3.6/num_parameters', '3.6.2/channel_audio_layer_config', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific']
+****************************************

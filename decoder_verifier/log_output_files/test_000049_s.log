@@ -1,0 +1,3908 @@
+﻿#1
+ftyp_0000000000000000:
+- MajorBrands: mp42
+- Version: 0
+- CompatibleBrands: iso6iamf
+##
+#1
+moov_000000000002abe0:
+##
+#1
+mvhd_000000000002abe8:
+- Version: 0
+- Flags: 0
+- CreationTime: 2023-05-12 00:00:00 UTC
+- ModificationTime: 2023-05-12 00:00:00 UTC
+- TimeScale: 48000
+- Duration: 240000
+- PreferedRate: 65536
+- PreferedVolume: 256
+- Reserved1: 0
+- Reserved2: 0
+- Reserved3: 0
+- MatrixStructure: 0x00010000 0x00000000 0x00000000 0x00000000 0x00010000 0x00000000 0x00000000 0x00000000 0x40000000
+- PreviewTime: 0
+- PreviewDuration: 0
+- PosterTime: 0
+- SelectionTime: 0
+- SelectionDuration: 0
+- CurrentTime: 0
+- NextTrackID: 2
+##
+#1
+trak_000000000002ac54:
+##
+#1
+tkhd_000000000002ac5c:
+- Version: 0
+- Flags: 3
+- CreationTime: 2023-05-12 00:00:00 UTC
+- ModificationTime: 2023-05-12 00:00:00 UTC
+- TrackID: 1
+- Reserved1: 0
+- Duration: 240000
+- Reserved2: 0
+- Reserved3: 0
+- Layer: 0
+- AlternativeGroup: 0
+- Volume: 256
+- Reserved4: 0
+- MatrixStructure: 0x00010000 0x00000000 0x00000000 0x00000000 0x00010000 0x00000000 0x00000000 0x00000000 0x40000000
+- TrackWidth: 0
+- TrackHeight: 0
+##
+#1
+edts_000000000002acb8:
+##
+#1
+elst_000000000002acc0:
+- Version: 0
+- Flags: 0
+- EntryCount: 1
+- SegmentDuration_0: 240000
+- MediaTime_0: 312
+- MediaRateInteger_0: 1
+- MediaRateFraction_0: 0
+##
+#1
+mdhd_000000000002ace4:
+- Version: 0
+- Flags: 0
+- CreationTime: 2023-05-12 00:00:00 UTC
+- ModificationTime: 2023-05-12 00:00:00 UTC
+- TimeScale: 48000
+- Duration: 240000
+- Language: 21956
+- Quality: 0
+##
+#1
+hdlr_000000000002ad04:
+- Version: 0
+- Flags: 0
+- PreDefined: 0
+- ComponentSubtype: 1936684398
+- Reserved1: 0
+- Reserved2: 0
+- Reserved3: 0
+- Name: "ISO Media file produced by Google Inc. Created on: 05/11/2023."
+##
+#1
+stbl_000000000002ad8f:
+##
+#1
+stsd_000000000002ad97:
+- Version: 0
+- Flags: 0
+- EntryCount: 1
+##
+#1
+iamf_000000000002ada7:
+- Reserved1: 0
+- Reserved2: 0
+- DataReferenceIndex: 1
+- Reserved3: 0
+- Reserved4: 0
+- ChannelCount: 0
+- SampleSize: 32
+- Predefined: 0
+- Reserved5: 0
+- SampleRate: 0
+##
+#1
+iacb_000000000002adcb:
+- configurationVersion: 1
+- configOBUs_size: 163
+- codec_config_id: 200
+- codec_id: Opus
+- num_samples_per_frame: 2880
+- audio_roll_distance: -2
+##
+#1
+stts_000000000002ae79:
+- Version: 0
+- Flags: 0
+- EntryCount: 2
+- SampleCount_0: 83
+- SampleDelta_0: 2880
+- SampleCount_1: 1
+- SampleDelta_1: 1272
+##
+#1
+stsc_000000000002ae99:
+- Version: 0
+- Flags: 0
+- EntryCount: 2
+- FirstChunk_0: 1
+- SamplePerChunk_0: 8
+- SampleDescriptionIndex_0: 1
+- FirstChunk_1: 11
+- SamplePerChunk_1: 4
+- SampleDescriptionIndex_1: 1
+##
+#1
+stco_000000000002aec1:
+- Version: 0
+- Flags: 0
+- EntryCount: 11
+- ChunkOffset_0: 40
+- ChunkOffset_1: 16691
+- ChunkOffset_2: 32591
+- ChunkOffset_3: 49026
+- ChunkOffset_4: 65188
+- ChunkOffset_5: 81989
+- ChunkOffset_6: 98685
+- ChunkOffset_7: 115603
+- ChunkOffset_8: 132555
+- ChunkOffset_9: 149426
+- ChunkOffset_10: 166179
+##
+#1
+stsz_000000000002aefd:
+- Version: 0
+- Flags: 0
+- SampleSize: 0
+- SampleCount: 84
+- EntrySize_0: 2277
+- EntrySize_1: 2014
+- EntrySize_2: 1945
+- EntrySize_3: 1964
+- EntrySize_4: 2071
+- EntrySize_5: 2107
+- EntrySize_6: 1913
+- EntrySize_7: 2360
+- EntrySize_8: 1965
+- EntrySize_9: 1856
+- EntrySize_10: 2082
+- EntrySize_11: 2093
+- EntrySize_12: 2126
+- EntrySize_13: 1894
+- EntrySize_14: 1900
+- EntrySize_15: 1984
+- EntrySize_16: 2057
+- EntrySize_17: 2112
+- EntrySize_18: 1974
+- EntrySize_19: 2024
+- EntrySize_20: 2040
+- EntrySize_21: 2064
+- EntrySize_22: 2111
+- EntrySize_23: 2053
+- EntrySize_24: 1981
+- EntrySize_25: 2058
+- EntrySize_26: 1941
+- EntrySize_27: 2183
+- EntrySize_28: 2067
+- EntrySize_29: 1961
+- EntrySize_30: 2031
+- EntrySize_31: 1940
+- EntrySize_32: 2005
+- EntrySize_33: 2038
+- EntrySize_34: 2035
+- EntrySize_35: 2048
+- EntrySize_36: 2353
+- EntrySize_37: 2038
+- EntrySize_38: 2092
+- EntrySize_39: 2192
+- EntrySize_40: 2198
+- EntrySize_41: 2040
+- EntrySize_42: 2114
+- EntrySize_43: 2075
+- EntrySize_44: 2098
+- EntrySize_45: 2030
+- EntrySize_46: 2067
+- EntrySize_47: 2074
+- EntrySize_48: 2102
+- EntrySize_49: 2111
+- EntrySize_50: 2095
+- EntrySize_51: 2108
+- EntrySize_52: 2118
+- EntrySize_53: 2122
+- EntrySize_54: 2143
+- EntrySize_55: 2119
+- EntrySize_56: 2108
+- EntrySize_57: 2068
+- EntrySize_58: 2134
+- EntrySize_59: 2102
+- EntrySize_60: 2527
+- EntrySize_61: 2023
+- EntrySize_62: 2009
+- EntrySize_63: 1981
+- EntrySize_64: 2097
+- EntrySize_65: 2110
+- EntrySize_66: 2160
+- EntrySize_67: 2075
+- EntrySize_68: 2287
+- EntrySize_69: 1972
+- EntrySize_70: 2071
+- EntrySize_71: 2099
+- EntrySize_72: 2077
+- EntrySize_73: 2100
+- EntrySize_74: 2101
+- EntrySize_75: 2066
+- EntrySize_76: 2080
+- EntrySize_77: 2055
+- EntrySize_78: 2126
+- EntrySize_79: 2148
+- EntrySize_80: 2162
+- EntrySize_81: 2092
+- EntrySize_82: 2002
+- EntrySize_83: 2637
+##
+#1
+sgpd_000000000002b061:
+- Version: 1
+- Flags: 0
+- GroupingType: 1919904876
+- DefaultLength: 2
+- EntryCount: 1
+- GroupingEntryVal_0: -2
+##
+#0
+IaSequenceHeaderOBU_0:
+- ia_code: 1767992678
+  primary_profile: 0
+  additional_profile: 0
+##
+#0
+CodecConfigOBU_1:
+- codec_config_id: 200
+  codec_config:
+    codec_id: 1332770163
+    num_samples_per_frame: 2880
+    audio_roll_distance: -2
+    decoder_config_opus:
+      version: 1
+      output_channel_count: 2
+      pre_skip: 312
+      input_sample_rate: 48000
+      output_gain: 0
+      mapping_family: 0
+##
+#0
+AudioElementOBU_2:
+- audio_element_id: 300
+  audio_element_type: 0
+  codec_config_id: 200
+  num_substreams: 4
+  audio_substream_ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  num_parameters: 2
+  audio_element_params:
+  - param_definition_type: 1
+    demixing_param:
+      param_definition:
+        parameter_id: 998
+        parameter_rate: 48000
+        param_definition_mode: 0
+        duration: 2880
+        num_subblocks: 1
+        constant_subblock_duration: 2880
+      default_demixing_info_parameter_data:
+        dmixp_mode: 1
+      default_w: 0
+  - param_definition_type: 2
+    recon_gain_param:
+      param_definition:
+        parameter_id: 999
+        parameter_rate: 48000
+        param_definition_mode: 0
+        duration: 2880
+        num_subblocks: 1
+        constant_subblock_duration: 2880
+  scalable_channel_layout_config:
+    num_layers: 2
+    channel_audio_layer_configs:
+    - loudspeaker_layout: 1
+      output_gain_is_present_flag: 0
+      recon_gain_is_present_flag: 0
+      substream_count: 1
+      coupled_substream_count: 1
+    - loudspeaker_layout: 2
+      output_gain_is_present_flag: 0
+      recon_gain_is_present_flag: 1
+      substream_count: 3
+      coupled_substream_count: 1
+##
+#0
+MixPresentationOBU_3:
+- mix_presentation_id: 42
+  count_label: 1
+  language_labels:
+  - "en-us"
+  mix_presentation_annotations_array:
+  - mix_presentation_annotations:
+    mix_presentation_friendly_label: "test_mix_pres"
+  num_sub_mixes: 1
+  sub_mixes:
+  - num_audio_elements: 1
+    audio_elements:
+    - audio_element_id: 300
+      mix_presentation_element_annotations_array:
+      - mix_presentation_element_annotations:
+        audio_element_friendly_label: "test_sub_mix_0_audio_element_0"
+      rendering_config:
+        headphones_rendering_mode: 0
+        rendering_config_extension_size: 0
+      element_mix_config:
+        mix_gain:
+          param_definition:
+            parameter_id: 100
+            parameter_rate: 48000
+            param_definition_mode: 1
+          default_mix_gain: 0
+    output_mix_config:
+      output_mix_gain:
+        param_definition:
+          parameter_id: 100
+          parameter_rate: 48000
+          param_definition_mode: 1
+        default_mix_gain: 0
+    num_layouts: 2
+    layouts:
+    - loudness_layout:
+        layout_type: 2
+        ss_layout:
+          sound_system: 0
+      loudness:
+        info_type: 0
+        integrated_loudness: -4618
+        digital_peak: -630
+    - loudness_layout:
+        layout_type: 2
+        ss_layout:
+          sound_system: 1
+      loudness:
+        info_type: 0
+        integrated_loudness: -4637
+        digital_peak: -1009
+##
+#0
+ParameterBlockOBU_4:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_5:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 740
+##
+#0
+AudioFrameOBU_6:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 878
+##
+#0
+AudioFrameOBU_7:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 329
+##
+#0
+AudioFrameOBU_8:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 296
+##
+#0
+ParameterBlockOBU_9:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_10:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 709
+##
+#0
+AudioFrameOBU_11:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 734
+##
+#0
+AudioFrameOBU_12:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 316
+##
+#0
+AudioFrameOBU_13:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 233
+##
+#0
+ParameterBlockOBU_14:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_15:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_16:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 653
+##
+#0
+AudioFrameOBU_17:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 323
+##
+#0
+AudioFrameOBU_18:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 225
+##
+#0
+ParameterBlockOBU_19:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_20:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_21:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 680
+##
+#0
+AudioFrameOBU_22:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 319
+##
+#0
+AudioFrameOBU_23:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 221
+##
+#0
+ParameterBlockOBU_24:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_25:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_26:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 743
+##
+#0
+AudioFrameOBU_27:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 308
+##
+#0
+AudioFrameOBU_28:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 276
+##
+#0
+ParameterBlockOBU_29:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_30:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_31:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 817
+##
+#0
+AudioFrameOBU_32:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 305
+##
+#0
+AudioFrameOBU_33:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+ParameterBlockOBU_34:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_35:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_36:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 641
+##
+#0
+AudioFrameOBU_37:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 316
+##
+#0
+AudioFrameOBU_38:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 212
+##
+#0
+ParameterBlockOBU_39:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_40:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 911
+##
+#0
+AudioFrameOBU_41:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 890
+##
+#0
+AudioFrameOBU_42:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 343
+##
+#0
+AudioFrameOBU_43:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 194
+##
+#0
+ParameterBlockOBU_44:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_45:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 761
+##
+#0
+AudioFrameOBU_46:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 691
+##
+#0
+AudioFrameOBU_47:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 299
+##
+#0
+AudioFrameOBU_48:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 192
+##
+#0
+ParameterBlockOBU_49:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_50:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 693
+##
+#0
+AudioFrameOBU_51:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 629
+##
+#0
+AudioFrameOBU_52:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 288
+##
+#0
+AudioFrameOBU_53:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 224
+##
+#0
+ParameterBlockOBU_54:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_55:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 714
+##
+#0
+AudioFrameOBU_56:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 789
+##
+#0
+AudioFrameOBU_57:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 347
+##
+#0
+AudioFrameOBU_58:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 210
+##
+#0
+ParameterBlockOBU_59:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_60:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 707
+##
+#0
+AudioFrameOBU_61:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 777
+##
+#0
+AudioFrameOBU_62:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 372
+##
+#0
+AudioFrameOBU_63:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 215
+##
+#0
+ParameterBlockOBU_64:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_65:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 800
+##
+#0
+AudioFrameOBU_66:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 697
+##
+#0
+AudioFrameOBU_67:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 377
+##
+#0
+AudioFrameOBU_68:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 230
+##
+#0
+ParameterBlockOBU_69:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_70:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 685
+##
+#0
+AudioFrameOBU_71:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 621
+##
+#0
+AudioFrameOBU_72:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 366
+##
+#0
+AudioFrameOBU_73:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 200
+##
+#0
+ParameterBlockOBU_74:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_75:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 676
+##
+#0
+AudioFrameOBU_76:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 633
+##
+#0
+AudioFrameOBU_77:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 363
+##
+#0
+AudioFrameOBU_78:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 206
+##
+#0
+ParameterBlockOBU_79:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_80:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 684
+##
+#0
+AudioFrameOBU_81:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 716
+##
+#0
+AudioFrameOBU_82:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 351
+##
+#0
+AudioFrameOBU_83:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 211
+##
+#0
+ParameterBlockOBU_84:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_85:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 686
+##
+#0
+AudioFrameOBU_86:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_87:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 421
+##
+#0
+AudioFrameOBU_88:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 206
+##
+#0
+ParameterBlockOBU_89:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_90:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 703
+##
+#0
+AudioFrameOBU_91:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 788
+##
+#0
+AudioFrameOBU_92:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 405
+##
+#0
+AudioFrameOBU_93:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 194
+##
+#0
+ParameterBlockOBU_94:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_95:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 697
+##
+#0
+AudioFrameOBU_96:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 662
+##
+#0
+AudioFrameOBU_97:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 395
+##
+#0
+AudioFrameOBU_98:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 198
+##
+#0
+ParameterBlockOBU_99:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_100:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 698
+##
+#0
+AudioFrameOBU_101:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 725
+##
+#0
+AudioFrameOBU_102:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 379
+##
+#0
+AudioFrameOBU_103:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 200
+##
+#0
+ParameterBlockOBU_104:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_105:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_106:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_107:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 369
+##
+#0
+AudioFrameOBU_108:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 205
+##
+#0
+ParameterBlockOBU_109:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_110:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_111:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 749
+##
+#0
+AudioFrameOBU_112:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 376
+##
+#0
+AudioFrameOBU_113:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 195
+##
+#0
+ParameterBlockOBU_114:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_115:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_116:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 822
+##
+#0
+AudioFrameOBU_117:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 345
+##
+#0
+AudioFrameOBU_118:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 200
+##
+#0
+ParameterBlockOBU_119:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_120:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_121:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 763
+##
+#0
+AudioFrameOBU_122:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 344
+##
+#0
+AudioFrameOBU_123:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 202
+##
+#0
+ParameterBlockOBU_124:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_125:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_126:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 681
+##
+#0
+AudioFrameOBU_127:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 344
+##
+#0
+AudioFrameOBU_128:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 212
+##
+#0
+ParameterBlockOBU_129:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_130:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_131:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 754
+##
+#0
+AudioFrameOBU_132:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 346
+##
+#0
+AudioFrameOBU_133:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 214
+##
+#0
+ParameterBlockOBU_134:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_135:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_136:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 640
+##
+#0
+AudioFrameOBU_137:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 342
+##
+#0
+AudioFrameOBU_138:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 215
+##
+#0
+ParameterBlockOBU_139:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_140:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_141:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 868
+##
+#0
+AudioFrameOBU_142:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 359
+##
+#0
+AudioFrameOBU_143:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 212
+##
+#0
+ParameterBlockOBU_144:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_145:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_146:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 742
+##
+#0
+AudioFrameOBU_147:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_148:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 219
+##
+#0
+ParameterBlockOBU_149:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_150:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_151:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 638
+##
+#0
+AudioFrameOBU_152:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_153:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 217
+##
+#0
+ParameterBlockOBU_154:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_155:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_156:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 705
+##
+#0
+AudioFrameOBU_157:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 381
+##
+#0
+AudioFrameOBU_158:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 201
+##
+#0
+ParameterBlockOBU_159:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_160:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_161:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 639
+##
+#0
+AudioFrameOBU_162:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 347
+##
+#0
+AudioFrameOBU_163:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 210
+##
+#0
+ParameterBlockOBU_164:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_165:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_166:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 695
+##
+#0
+AudioFrameOBU_167:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_168:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 204
+##
+#0
+ParameterBlockOBU_169:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_170:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_171:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_172:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_173:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 210
+##
+#0
+ParameterBlockOBU_174:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_175:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_176:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_177:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_178:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 207
+##
+#0
+ParameterBlockOBU_179:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_180:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_181:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_182:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 375
+##
+#0
+AudioFrameOBU_183:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 207
+##
+#0
+ParameterBlockOBU_184:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_185:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 857
+##
+#0
+AudioFrameOBU_186:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 797
+##
+#0
+AudioFrameOBU_187:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 430
+##
+#0
+AudioFrameOBU_188:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 247
+##
+#0
+ParameterBlockOBU_189:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_190:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 687
+##
+#0
+AudioFrameOBU_191:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 652
+##
+#0
+AudioFrameOBU_192:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 390
+##
+#0
+AudioFrameOBU_193:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 287
+##
+#0
+ParameterBlockOBU_194:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_195:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 689
+##
+#0
+AudioFrameOBU_196:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_197:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 376
+##
+#0
+AudioFrameOBU_198:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 283
+##
+#0
+ParameterBlockOBU_199:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_200:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 688
+##
+#0
+AudioFrameOBU_201:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 842
+##
+#0
+AudioFrameOBU_202:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 357
+##
+#0
+AudioFrameOBU_203:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 283
+##
+#0
+ParameterBlockOBU_204:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_205:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 700
+##
+#0
+AudioFrameOBU_206:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 849
+##
+#0
+AudioFrameOBU_207:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 347
+##
+#0
+AudioFrameOBU_208:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 280
+##
+#0
+ParameterBlockOBU_209:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_210:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_211:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 660
+##
+#0
+AudioFrameOBU_212:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 337
+##
+#0
+AudioFrameOBU_213:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 299
+##
+#0
+ParameterBlockOBU_214:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_215:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_216:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 729
+##
+#0
+AudioFrameOBU_217:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 343
+##
+#0
+AudioFrameOBU_218:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 298
+##
+#0
+ParameterBlockOBU_219:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_220:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_221:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 696
+##
+#0
+AudioFrameOBU_222:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 344
+##
+#0
+AudioFrameOBU_223:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 291
+##
+#0
+ParameterBlockOBU_224:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_225:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_226:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 748
+##
+#0
+AudioFrameOBU_227:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 341
+##
+#0
+AudioFrameOBU_228:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 265
+##
+#0
+ParameterBlockOBU_229:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_230:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_231:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 651
+##
+#0
+AudioFrameOBU_232:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_233:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 273
+##
+#0
+ParameterBlockOBU_234:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_235:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_236:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 647
+##
+#0
+AudioFrameOBU_237:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_238:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 314
+##
+#0
+ParameterBlockOBU_239:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_240:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_241:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 700
+##
+#0
+AudioFrameOBU_242:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_243:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 268
+##
+#0
+ParameterBlockOBU_244:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_245:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_246:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_247:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_248:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 274
+##
+#0
+ParameterBlockOBU_249:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_250:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_251:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_252:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_253:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 283
+##
+#0
+ParameterBlockOBU_254:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_255:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_256:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_257:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_258:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 267
+##
+#0
+ParameterBlockOBU_259:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_260:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_261:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_262:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_263:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 280
+##
+#0
+ParameterBlockOBU_264:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_265:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_266:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_267:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_268:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 290
+##
+#0
+ParameterBlockOBU_269:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_270:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_271:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_272:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_273:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 294
+##
+#0
+ParameterBlockOBU_274:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_275:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_276:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_277:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_278:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 315
+##
+#0
+ParameterBlockOBU_279:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_280:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_281:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_282:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_283:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 291
+##
+#0
+ParameterBlockOBU_284:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_285:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_286:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_287:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_288:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 280
+##
+#0
+ParameterBlockOBU_289:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_290:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_291:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_292:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_293:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 240
+##
+#0
+ParameterBlockOBU_294:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_295:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_296:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 725
+##
+#0
+AudioFrameOBU_297:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 364
+##
+#0
+AudioFrameOBU_298:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 301
+##
+#0
+ParameterBlockOBU_299:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_300:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_301:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 724
+##
+#0
+AudioFrameOBU_302:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_303:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 272
+##
+#0
+ParameterBlockOBU_304:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_305:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 894
+##
+#0
+AudioFrameOBU_306:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 874
+##
+#0
+AudioFrameOBU_307:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 446
+##
+#0
+AudioFrameOBU_308:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 291
+##
+#0
+ParameterBlockOBU_309:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_310:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 668
+##
+#0
+AudioFrameOBU_311:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 681
+##
+#0
+AudioFrameOBU_312:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 402
+##
+#0
+AudioFrameOBU_313:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 250
+##
+#0
+ParameterBlockOBU_314:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_315:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 670
+##
+#0
+AudioFrameOBU_316:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 663
+##
+#0
+AudioFrameOBU_317:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_318:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 292
+##
+#0
+ParameterBlockOBU_319:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_320:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 682
+##
+#0
+AudioFrameOBU_321:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 678
+##
+#0
+AudioFrameOBU_322:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_323:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 237
+##
+#0
+ParameterBlockOBU_324:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_325:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 706
+##
+#0
+AudioFrameOBU_326:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 725
+##
+#0
+AudioFrameOBU_327:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_328:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 282
+##
+#0
+ParameterBlockOBU_329:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_330:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_331:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_332:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 363
+##
+#0
+AudioFrameOBU_333:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 281
+##
+#0
+ParameterBlockOBU_334:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_335:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 764
+##
+#0
+AudioFrameOBU_336:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 745
+##
+#0
+AudioFrameOBU_337:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 365
+##
+#0
+AudioFrameOBU_338:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 264
+##
+#0
+ParameterBlockOBU_339:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_340:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 709
+##
+#0
+AudioFrameOBU_341:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 704
+##
+#0
+AudioFrameOBU_342:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 350
+##
+#0
+AudioFrameOBU_343:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 290
+##
+#0
+ParameterBlockOBU_344:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_345:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 816
+##
+#0
+AudioFrameOBU_346:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 794
+##
+#0
+AudioFrameOBU_347:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 358
+##
+#0
+AudioFrameOBU_348:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 297
+##
+#0
+ParameterBlockOBU_349:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_350:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 704
+##
+#0
+AudioFrameOBU_351:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 684
+##
+#0
+AudioFrameOBU_352:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 314
+##
+#0
+AudioFrameOBU_353:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 248
+##
+#0
+ParameterBlockOBU_354:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_355:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 735
+##
+#0
+AudioFrameOBU_356:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 695
+##
+#0
+AudioFrameOBU_357:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 338
+##
+#0
+AudioFrameOBU_358:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 281
+##
+#0
+ParameterBlockOBU_359:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_360:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 714
+##
+#0
+AudioFrameOBU_361:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 752
+##
+#0
+AudioFrameOBU_362:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 346
+##
+#0
+AudioFrameOBU_363:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 265
+##
+#0
+ParameterBlockOBU_364:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_365:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 709
+##
+#0
+AudioFrameOBU_366:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 697
+##
+#0
+AudioFrameOBU_367:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 364
+##
+#0
+AudioFrameOBU_368:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 285
+##
+#0
+ParameterBlockOBU_369:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_370:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 710
+##
+#0
+AudioFrameOBU_371:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_372:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 358
+##
+#0
+AudioFrameOBU_373:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 288
+##
+#0
+ParameterBlockOBU_374:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_375:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 713
+##
+#0
+AudioFrameOBU_376:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 749
+##
+#0
+AudioFrameOBU_377:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 371
+##
+#0
+AudioFrameOBU_378:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 246
+##
+#0
+ParameterBlockOBU_379:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_380:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 698
+##
+#0
+AudioFrameOBU_381:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 699
+##
+#0
+AudioFrameOBU_382:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 389
+##
+#0
+AudioFrameOBU_383:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 258
+##
+#0
+ParameterBlockOBU_384:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_385:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 706
+##
+#0
+AudioFrameOBU_386:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_387:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 362
+##
+#0
+AudioFrameOBU_388:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 268
+##
+#0
+ParameterBlockOBU_389:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_390:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 713
+##
+#0
+AudioFrameOBU_391:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_392:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 359
+##
+#0
+AudioFrameOBU_393:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 239
+##
+#0
+ParameterBlockOBU_394:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_395:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_396:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_397:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 366
+##
+#0
+AudioFrameOBU_398:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 294
+##
+#0
+ParameterBlockOBU_399:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_400:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_401:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_402:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 369
+##
+#0
+AudioFrameOBU_403:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 313
+##
+#0
+ParameterBlockOBU_404:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_405:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_406:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 813
+##
+#0
+AudioFrameOBU_407:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 360
+##
+#0
+AudioFrameOBU_408:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 245
+##
+#0
+ParameterBlockOBU_409:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_410:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_411:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 694
+##
+#0
+AudioFrameOBU_412:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 379
+##
+#0
+AudioFrameOBU_413:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 275
+##
+#0
+ParameterBlockOBU_414:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_415:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 722
+##
+#0
+AudioFrameOBU_416:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 666
+##
+#0
+AudioFrameOBU_417:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 365
+##
+#0
+AudioFrameOBU_418:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 227
+##
+#0
+ParameterBlockOBU_419:
+- parameter_id: 100
+  duration: 2880
+  num_subblocks: 1
+  constant_subblock_duration: 2880
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 2880
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+AudioFrameOBU_420:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 1608
+  size_of_audio_frame: 965
+##
+#0
+AudioFrameOBU_421:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 1608
+  size_of_audio_frame: 965
+##
+#0
+AudioFrameOBU_422:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 1608
+  size_of_audio_frame: 440
+##
+#0
+AudioFrameOBU_423:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 1608
+  size_of_audio_frame: 233
+##

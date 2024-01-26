@@ -1,0 +1,29 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+109 item(s) of 109 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000006_f.log
+* [1] wav output file: ss0_test_000006_f.wav
+* [1] reference wav file: ref_test_000006.wav
+****************************************
+****************************************
+description:
+A stereo base profile IAMF stream with temporal delimiters.
+is_valid: True
+primary_tested_spec_sections: ['3.4/IA Sequence Header OBU Syntax and Semantics', '3.10/Codec Specific', '4.2/temporal_delimiter_obu', '5.1/IA Sequence', '5.1.2/IA Data OBUs', '6.2.4/temporal_delimiter_obu']
+****************************************

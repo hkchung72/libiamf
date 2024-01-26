@@ -1,0 +1,37 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+618 item(s) of 618 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #4399.
+111 item(s) of 112 tests is/are passed.
+1 item(s) of 112 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 46.01400920766494 dB
+ch#1 PSNR: 48.746648224071166 dB
+ch#2 PSNR: 48.077950717299096 dB
+ch#3 PSNR: 70.02459220270713 dB
+ch#4 PSNR: 49.51862272145411 dB
+ch#5 PSNR: 47.18018694447017 dB
+average PSNR: 51.593668336277766
+****************************************
+* log output file: ./log_output_files/test_000404_f.log
+* [1] wav output file: ss11_test_000404_f.wav
+* [1] reference wav file: ref_test_000404.wav
+****************************************
+****************************************
+description:
+A simple example of a 3.1.2 + stereo base profile IAMF
+stream encoded using Opus.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 3.1.2', '3.7.4/default_mix_gain', '3.11.1/OPUS Specific', '4.2/Base Profile', '8.5.1/Loudness Information']
+****************************************

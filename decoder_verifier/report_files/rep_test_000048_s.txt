@@ -1,0 +1,32 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+124 item(s) of 124 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+89 item(s) of 89 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 45.02362654947796 dB
+ch#1 PSNR: 60.72467228212366 dB
+average PSNR: 52.874149415800815
+****************************************
+* log output file: ./log_output_files/test_000048_s.log
+* [1] wav output file: ss0_test_000048_s.wav
+* [1] reference wav file: ref_test_000048.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `PROJECTION` and Opus with coupled
+stereo channels
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_projection_config', '7/IAMF Processing', '7.3.2/Rendering an Audio Element', '7.3.2.2/Rendering a Scene-Based Audio Element to Loudspeakers']
+****************************************

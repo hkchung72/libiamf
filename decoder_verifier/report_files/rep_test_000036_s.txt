@@ -1,0 +1,32 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+118 item(s) of 118 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+99 item(s) of 99 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+Number of samples of reference file and comparison file are different.
+[2] PSNR evaluation:
+Number of samples of reference file and comparison file are different.
+****************************************
+* log output file: ./log_output_files/test_000036_s.log
+* [1] wav output file: ss0_test_000036_s.wav
+* [2] wav output file: ss1_test_000036_s.wav
+* [1] reference wav file: ref_test_000036_0.wav
+* [2] reference wav file: ref_test_000036_1.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream with the last layer being 5.1.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/channel_audio_layer_config', '3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 5.1', '3.6.2/num_layers', '7/IAMF Processing', '7.2/non-scalable', '7.2.2/De-mixer']
+****************************************

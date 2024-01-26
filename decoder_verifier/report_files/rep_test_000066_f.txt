@@ -1,0 +1,32 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+483 item(s) of 483 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+75 item(s) of 75 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 96.37238305537457 dB
+ch#1 PSNR: 99.26015569858296 dB
+average PSNR: 97.816269376978767
+****************************************
+* log output file: ./log_output_files/test_000066_f.log
+* [1] wav output file: ss0_test_000066_f.wav
+* [1] reference wav file: ref_test_000066.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded with the first
+frame using a bezier-animation mix gain and subsequnt frames
+using linear-animation.
+is_valid: True
+primary_tested_spec_sections: ['3.6.1/param_definition_mode', '3.6.3/ambisonics_mono_config', '3.8/duration', '3.8/num_subblocks', '3.8/subblock_duration', '3.8.1/animation_type == LINEAR', '3.8.1/animation_type == BEZIER', '7/IAMF Processing', '7.4/animation_type == LINEAR', '7.4/animation_type == BEZIER']
+****************************************

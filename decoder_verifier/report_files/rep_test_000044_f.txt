@@ -1,0 +1,34 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+109 item(s) of 109 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+136 item(s) of 136 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.3397660319448 dB
+ch#1 PSNR: 99.3397660319448 dB
+average PSNR: 99.339766031944805
+****************************************
+* log output file: ./log_output_files/test_000044_f.log
+* [1] wav output file: ss0_test_000044_f.wav
+* [1] reference wav file: ref_test_000044.wav
+****************************************
+****************************************
+description:
+An IAMF stream encoded using `ambisonics_mode` =
+`PROJECTION`. This test vector tests mixed-order ambisonics
+representation by using third-order ambisonics to represent
+a lower order (first-order) ambisonics by using a demixing
+matrix.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_projection_config', '7/IAMF Processing', '7.1/demixing_matrix', '7.3.2/Rendering an Audio Element', '7.3.2.2/Rendering a Scene-Based Audio Element to Loudspeakers']
+****************************************

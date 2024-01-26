@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+577 item(s) of 577 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.32217658205354 dB
+ch#1 PSNR: 99.38908408569611 dB
+average PSNR: 99.355630333874828
+****************************************
+* log output file: ./log_output_files/test_000104_f.log
+* [1] wav output file: ss0_test_000104_f.wav
+* [1] reference wav file: ref_test_000104.wav
+****************************************
+****************************************
+description:
+A zero-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `PROJECTION`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_projection_config']
+****************************************

@@ -1,0 +1,57 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+618 item(s) of 618 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #4486.
+125 item(s) of 126 tests is/are passed.
+1 item(s) of 126 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 59.00004258843477 dB
+ch#1 PSNR: 52.83540238643376 dB
+average PSNR: 55.917722487434268
+[2] PSNR evaluation:
+ch#0 PSNR: 57.888270448107846 dB
+ch#1 PSNR: 52.70757655140879 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 62.85434144717854 dB
+ch#5 PSNR: 61.846246086094666 dB
+average PSNR: 58.174824806684718
+[3] PSNR evaluation:
+ch#0 PSNR: 68.05091642271947 dB
+ch#1 PSNR: 59.68531698710284 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 66.59890897853151 dB
+ch#5 PSNR: 58.274329047986704 dB
+ch#6 PSNR: 51.633133681232636 dB
+ch#7 PSNR: 46.231040508869434 dB
+ch#8 PSNR: 62.85434144717854 dB
+ch#9 PSNR: 61.846246086094666 dB
+average PSNR: 58.892674746703428
+****************************************
+* log output file: ./log_output_files/test_000051_f.log
+* [1] wav output file: ss0_test_000051_f.wav
+* [2] wav output file: ss11_test_000051_f.wav
+* [3] wav output file: ss10_test_000051_f.wav
+* [1] reference wav file: ref_test_000051_0.wav
+* [2] reference wav file: ref_test_000051_1.wav
+* [3] reference wav file: ref_test_000051_2.wav
+****************************************
+****************************************
+description:
+A 3-layer IAMF stream encoded using Opus with the last layer
+being 7.1.2.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/channel_audio_layer_config', '3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 7.1.2', '3.6.2/num_layers', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific']
+****************************************

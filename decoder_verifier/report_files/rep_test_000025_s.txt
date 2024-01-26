@@ -1,0 +1,22 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+124 item(s) of 124 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config -> decoder_config_opus -> version
+  'version' must be set to 1 (type=value_error)
+****************************************
+description:
+A stereo IAMF stream encoded using Opus, with an incorrect
+Opus version.
+is_valid: False
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/version']
+****************************************
