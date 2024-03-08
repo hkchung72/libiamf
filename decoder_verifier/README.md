@@ -33,10 +33,10 @@ please see the 5 directories to see the verification result.<BR>
 
 ## How to perform full verification<BR>
 
-> cd decoder_verifier
-> mkdir tests
-> copy ..\tests\*.* .
-> runtest
+> cd decoder_verifier<BR>
+> mkdir tests<BR>
+> copy ..\tests\*.* .<BR>
+> runtest.bat<BR>
 
 When full verification is completed, report files for all test cases are created in the report_files directory.
 
