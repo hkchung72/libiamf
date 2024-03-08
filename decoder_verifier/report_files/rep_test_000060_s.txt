@@ -1,0 +1,29 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+107 item(s) of 107 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000060_s.log
+* [1] wav output file: ss0_test_000060_s.wav
+* [1] reference wav file: test_000060_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with two language labels.
+is_valid: True
+primary_tested_spec_sections: ['3.7/count_label', '3.7/language_label', '3.7/mix_presentation_annotations', '3.7.1/Mix Presentation Annotations Syntax and Semantics', '3.7.2/Mix Presentation Element Annotations Syntax and Semantics']
+****************************************

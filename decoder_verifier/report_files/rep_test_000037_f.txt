@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+1426 item(s) of 1426 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+86 item(s) of 86 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 68.24681872085758 dB
+ch#1 PSNR: 60.27012044513954 dB
+average PSNR: 64.258469582998558
+****************************************
+* log output file: ./log_output_files/test_000037_f.log
+* [1] wav output file: ss0_test_000037_f.wav
+* [1] reference wav file: test_000037_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream encoding ~22 seconds of audio using
+Opus.
+is_valid: True
+primary_tested_spec_sections: ['6/ISOBMFF IAMF Encapsulation']
+****************************************

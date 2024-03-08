@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+111 item(s) of 111 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+72 item(s) of 72 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 100.25198467458219 dB
+ch#1 PSNR: 100.25198467458219 dB
+average PSNR: 100.251984674582189
+****************************************
+* log output file: ./log_output_files/test_000071_s.log
+* [1] wav output file: ss0_test_000071_s.wav
+* [1] reference wav file: test_000071_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with two mix gain parameters with
+different `param_definition_modes`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.1/parameter_id', '3.6.1/parameter_rate', '3.6.1/param_definition_mode', '3.6.1/constant_subblock_duration', '3.6.1/num_subblocks', '3.7.4/Element Mix Config Syntax and Semantics', '3.7.5/Output Mix Config Syntax and Semantics', '3.8.1/animation_type == STEP', '5.1/IA Sequence', '5.1.2/IA Data OBUs', '7/IAMF Processing', '7.4/animation_type == STEP']
+****************************************

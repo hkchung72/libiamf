@@ -1,0 +1,1812 @@
+﻿#0
+IaSequenceHeaderOBU_0:
+- ia_code: 1767992678
+  primary_profile: 0
+  additional_profile: 0
+##
+#0
+CodecConfigOBU_1:
+- codec_config_id: 200
+  codec_config:
+    codec_id: 1332770163
+    num_samples_per_frame: 960
+    audio_roll_distance: -4
+    decoder_config_opus:
+      version: 1
+      output_channel_count: 2
+      pre_skip: 312
+      input_sample_rate: 48000
+      output_gain: 0
+      mapping_family: 0
+##
+#0
+AudioElementOBU_2:
+- audio_element_id: 300
+  audio_element_type: 0
+  codec_config_id: 200
+  num_substreams: 4
+  audio_substream_ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  num_parameters: 2
+  audio_element_params:
+  - param_definition_type: 1
+    demixing_param:
+      param_definition:
+        parameter_id: 998
+        parameter_rate: 48000
+        param_definition_mode: 0
+        duration: 960
+        num_subblocks: 1
+        constant_subblock_duration: 960
+      default_demixing_info_parameter_data:
+        dmixp_mode: 1
+      default_w: 0
+  - param_definition_type: 2
+    recon_gain_param:
+      param_definition:
+        parameter_id: 101
+        parameter_rate: 48000
+        param_definition_mode: 0
+        duration: 960
+        num_subblocks: 1
+        constant_subblock_duration: 960
+  scalable_channel_layout_config:
+    num_layers: 2
+    channel_audio_layer_configs:
+    - loudspeaker_layout: 1
+      output_gain_is_present_flag: 0
+      recon_gain_is_present_flag: 0
+      substream_count: 1
+      coupled_substream_count: 1
+    - loudspeaker_layout: 2
+      output_gain_is_present_flag: 0
+      recon_gain_is_present_flag: 1
+      substream_count: 3
+      coupled_substream_count: 1
+##
+#0
+MixPresentationOBU_3:
+- mix_presentation_id: 42
+  count_label: 1
+  language_labels:
+  - "en-us"
+  mix_presentation_annotations_array:
+  - mix_presentation_annotations:
+    mix_presentation_friendly_label: "test_mix_pres"
+  num_sub_mixes: 1
+  sub_mixes:
+  - num_audio_elements: 1
+    audio_elements:
+    - audio_element_id: 300
+      mix_presentation_element_annotations_array:
+      - mix_presentation_element_annotations:
+        audio_element_friendly_label: "test_sub_mix_0_audio_element_0"
+      rendering_config:
+        headphones_rendering_mode: 0
+        rendering_config_extension_size: 0
+      element_mix_config:
+        mix_gain:
+          param_definition:
+            parameter_id: 100
+            parameter_rate: 48000
+            param_definition_mode: 1
+          default_mix_gain: 0
+    output_mix_config:
+      output_mix_gain:
+        param_definition:
+          parameter_id: 100
+          parameter_rate: 48000
+          param_definition_mode: 1
+        default_mix_gain: 0
+    num_layouts: 2
+    layouts:
+    - loudness_layout:
+        layout_type: 2
+        ss_layout:
+          sound_system: 0
+      loudness:
+        info_type: 0
+        integrated_loudness: -5273
+        digital_peak: -2197
+    - loudness_layout:
+        layout_type: 2
+        ss_layout:
+          sound_system: 1
+      loudness:
+        info_type: 0
+        integrated_loudness: -5886
+        digital_peak: -2845
+##
+#0
+ParameterBlockOBU_4:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_5:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_6:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 371
+##
+#0
+AudioFrameOBU_7:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 381
+##
+#0
+AudioFrameOBU_8:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 66
+##
+#0
+AudioFrameOBU_9:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 312
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 67
+##
+#0
+ParameterBlockOBU_10:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_11:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_12:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 313
+##
+#0
+AudioFrameOBU_13:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 339
+##
+#0
+AudioFrameOBU_14:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 62
+##
+#0
+AudioFrameOBU_15:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 64
+##
+#0
+ParameterBlockOBU_16:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_17:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_18:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 210
+##
+#0
+AudioFrameOBU_19:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 207
+##
+#0
+AudioFrameOBU_20:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 75
+##
+#0
+AudioFrameOBU_21:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 94
+##
+#0
+ParameterBlockOBU_22:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_23:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_24:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 211
+##
+#0
+AudioFrameOBU_25:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 215
+##
+#0
+AudioFrameOBU_26:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 88
+##
+#0
+AudioFrameOBU_27:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 105
+##
+#0
+ParameterBlockOBU_28:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_29:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_30:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 340
+##
+#0
+AudioFrameOBU_31:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 303
+##
+#0
+AudioFrameOBU_32:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 121
+##
+#0
+AudioFrameOBU_33:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 126
+##
+#0
+ParameterBlockOBU_34:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_35:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_36:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 206
+##
+#0
+AudioFrameOBU_37:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 206
+##
+#0
+AudioFrameOBU_38:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 124
+##
+#0
+AudioFrameOBU_39:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 121
+##
+#0
+ParameterBlockOBU_40:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_41:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_42:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 212
+##
+#0
+AudioFrameOBU_43:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 230
+##
+#0
+AudioFrameOBU_44:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 128
+##
+#0
+AudioFrameOBU_45:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 138
+##
+#0
+ParameterBlockOBU_46:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_47:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_48:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 220
+##
+#0
+AudioFrameOBU_49:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 223
+##
+#0
+AudioFrameOBU_50:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 125
+##
+#0
+AudioFrameOBU_51:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 130
+##
+#0
+ParameterBlockOBU_52:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_53:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_54:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 249
+##
+#0
+AudioFrameOBU_55:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 247
+##
+#0
+AudioFrameOBU_56:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 125
+##
+#0
+AudioFrameOBU_57:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 122
+##
+#0
+ParameterBlockOBU_58:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_59:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_60:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 262
+##
+#0
+AudioFrameOBU_61:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 260
+##
+#0
+AudioFrameOBU_62:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 121
+##
+#0
+AudioFrameOBU_63:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 121
+##
+#0
+ParameterBlockOBU_64:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_65:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_66:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 266
+##
+#0
+AudioFrameOBU_67:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 266
+##
+#0
+AudioFrameOBU_68:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 119
+##
+#0
+AudioFrameOBU_69:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 114
+##
+#0
+ParameterBlockOBU_70:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_71:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_72:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 269
+##
+#0
+AudioFrameOBU_73:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 255
+##
+#0
+AudioFrameOBU_74:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 117
+##
+#0
+AudioFrameOBU_75:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 114
+##
+#0
+ParameterBlockOBU_76:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_77:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_78:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 244
+##
+#0
+AudioFrameOBU_79:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_80:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 110
+##
+#0
+AudioFrameOBU_81:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 109
+##
+#0
+ParameterBlockOBU_82:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_83:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_84:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_85:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_86:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 127
+##
+#0
+AudioFrameOBU_87:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 127
+##
+#0
+ParameterBlockOBU_88:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_89:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_90:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_91:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_92:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 141
+##
+#0
+AudioFrameOBU_93:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 134
+##
+#0
+ParameterBlockOBU_94:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_95:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_96:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_97:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_98:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 133
+##
+#0
+AudioFrameOBU_99:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 125
+##
+#0
+ParameterBlockOBU_100:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_101:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_102:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_103:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_104:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 119
+##
+#0
+AudioFrameOBU_105:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 121
+##
+#0
+ParameterBlockOBU_106:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_107:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_108:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_109:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_110:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 118
+##
+#0
+AudioFrameOBU_111:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 123
+##
+#0
+ParameterBlockOBU_112:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_113:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_114:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_115:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_116:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 116
+##
+#0
+AudioFrameOBU_117:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 114
+##
+#0
+ParameterBlockOBU_118:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_119:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_120:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_121:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_122:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 116
+##
+#0
+AudioFrameOBU_123:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 122
+##
+#0
+ParameterBlockOBU_124:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_125:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_126:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_127:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_128:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 117
+##
+#0
+AudioFrameOBU_129:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 113
+##
+#0
+ParameterBlockOBU_130:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_131:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_132:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_133:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_134:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 123
+##
+#0
+AudioFrameOBU_135:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 130
+##
+#0
+ParameterBlockOBU_136:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_137:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_138:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_139:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_140:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 128
+##
+#0
+AudioFrameOBU_141:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 135
+##
+#0
+ParameterBlockOBU_142:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_143:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_144:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_145:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_146:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 122
+##
+#0
+AudioFrameOBU_147:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 123
+##
+#0
+ParameterBlockOBU_148:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_149:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_150:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_151:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_152:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 179
+##
+#0
+AudioFrameOBU_153:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 0
+  size_of_audio_frame: 175
+##
+#0
+ParameterBlockOBU_154:
+- parameter_id: 100
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - mix_gain_parameter_data:
+      subblock_duration: 960
+      animation_type: 0
+      param_data:
+        step:
+          start_point_value: 0
+##
+#0
+ParameterBlockOBU_155:
+- parameter_id: 101
+  duration: 960
+  num_subblocks: 1
+  constant_subblock_duration: 960
+  subblocks:
+  - recon_gain_info_parameter_data:
+      recon_gains_for_layer:
+      recon_gains_for_layer:
+        recon_gain:
+          key: 0
+          value: 255
+        recon_gain:
+          key: 2
+          value: 255
+        recon_gain:
+          key: 3
+          value: 255
+        recon_gain:
+          key: 4
+          value: 255
+##
+#0
+AudioFrameOBU_156:
+- audio_substream_id: 0
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 648
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_157:
+- audio_substream_id: 1
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 648
+  size_of_audio_frame: 241
+##
+#0
+AudioFrameOBU_158:
+- audio_substream_id: 2
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 648
+  size_of_audio_frame: 189
+##
+#0
+AudioFrameOBU_159:
+- audio_substream_id: 3
+  num_samples_to_trim_at_start: 0
+  num_samples_to_trim_at_end: 648
+  size_of_audio_frame: 189
+##

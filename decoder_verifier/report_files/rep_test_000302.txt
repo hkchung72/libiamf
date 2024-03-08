@@ -1,0 +1,26 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+127 item(s) of 127 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 90.83967371405444 dB
+ch#1 PSNR: 99.31828547386769 dB
+average PSNR: 95.078979593961066
+****************************************
+* log output file: ./log_output_files/test_000302.log
+* [1] wav output file: ss0_test_000302.wav
+* [1] reference wav file: test_000302_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A third-order ambisonics + stereo base profile IAMF stream.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/loudspeaker_layout == Stereo', '3.6.3/ambisonics_mono_config', '3.7.4/default_mix_gain', '4.2/Base Profile', '8.5.1/Loudness Information']
+****************************************

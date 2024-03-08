@@ -1,0 +1,39 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+128 item(s) of 128 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+111 item(s) of 111 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+Number of channels of reference file and comparison file are different.
+[2] PSNR evaluation:
+ch#0 PSNR: 66.26607966317214 dB
+ch#1 PSNR: 57.63334792190115 dB
+ch#2 PSNR: 55.67069579426297 dB
+ch#3 PSNR: 47.76702014265687 dB
+ch#4 PSNR: 52.75424361614746 dB
+ch#5 PSNR: 47.87410036273883 dB
+average PSNR: 54.660914583479901
+****************************************
+* log output file: ./log_output_files/test_000061_s.log
+* [1] wav output file: ss1_test_000061_s.wav
+* [2] wav output file: ss1_test_000061_s.wav
+* [1] reference wav file: test_000061_rendered_id_42_sub_mix_0_layout_0.wav
+* [2] reference wav file: test_000061_rendered_id_42_sub_mix_0_layout_1.wav
+****************************************
+****************************************
+description:
+A 2-layer IAMF stream encoded using Opus with the last layer
+being 5.1.0 with Demixing Parameter Block OBUs.
+is_valid: True
+primary_tested_spec_sections: ['3.6.1/param_definition_mode', '3.6.1/parameter_rate', '3.6.2/channel_audio_layer_config', '3.8/demixing_info_parameter_data', '3.8.2/Demixing Info Parameter Data Syntax and Semantics', '7/IAMF Processing', '7.2/demixing', '7.2.2/De-mixer', '7.3.2/Rendering an Audio Element', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers']
+****************************************

@@ -1,0 +1,53 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+137 item(s) of 137 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+125 item(s) of 125 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 60.01467461785169 dB
+ch#1 PSNR: 52.81130843385392 dB
+average PSNR: 56.412991525852803
+[2] PSNR evaluation:
+ch#0 PSNR: 68.0297961607714 dB
+ch#1 PSNR: 59.701571978087394 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 55.440459467469566 dB
+ch#5 PSNR: 49.4914912446312 dB
+average PSNR: 57.735972193046337
+[3] PSNR evaluation:
+ch#0 PSNR: 68.0297961607714 dB
+ch#1 PSNR: 59.701571978087394 dB
+ch#2 PSNR: 60.707924261220604 dB
+ch#3 PSNR: 53.04459004609785 dB
+ch#4 PSNR: 55.440459467469566 dB
+ch#5 PSNR: 49.4914912446312 dB
+ch#6 PSNR: 62.854341447178534 dB
+ch#7 PSNR: 61.846246086094666 dB
+average PSNR: 58.889552586443898
+****************************************
+* log output file: ./log_output_files/test_000055_s.log
+* [1] wav output file: ss0_test_000055_s.wav
+* [2] wav output file: ss1_test_000055_s.wav
+* [3] wav output file: ss2_test_000055_s.wav
+* [1] reference wav file: test_000055_rendered_id_42_sub_mix_0_layout_0.wav
+* [2] reference wav file: test_000055_rendered_id_42_sub_mix_0_layout_1.wav
+* [3] reference wav file: test_000055_rendered_id_42_sub_mix_0_layout_2.wav
+****************************************
+****************************************
+description:
+A 3-layer IAMF stream encoded using Opus with the last layer
+being 5.1.2.
+is_valid: True
+primary_tested_spec_sections: ['3.6/param_definition_type', '3.6.2/channel_audio_layer_config', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific']
+****************************************

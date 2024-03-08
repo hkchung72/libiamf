@@ -1,0 +1,41 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+122 item(s) of 122 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+105 item(s) of 105 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+ch#2 PSNR: inf
+ch#3 PSNR: inf
+ch#4 PSNR: inf
+ch#5 PSNR: inf
+ch#6 PSNR: inf
+ch#7 PSNR: inf
+ch#8 PSNR: inf
+ch#9 PSNR: inf
+ch#10 PSNR: inf
+ch#11 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000070_s.log
+* [1] wav output file: ss9_test_000070_s.wav
+* [1] reference wav file: test_000070_rendered_id_42_sub_mix_0_layout_2.wav
+****************************************
+****************************************
+description:
+A 7.1.4 IAMF stream using
+`default_demixing_info_parameter_data`, where the loudness
+is measured in Stereo, 7.1.2, and 7.1.4.
+is_valid: True
+primary_tested_spec_sections: ['3.6/demixing_info', '3.6/default_demixing_info_parameter_data', '3.6/default_w', '3.6/num_parameters', '3.6.2/loudspeaker_layout == 7.1.4', '3.7/loudness_layout == Stereo', '3.7/loudness_layout == 7.1.2', '3.7/loudness_layout == 7.1.4', '3.7.6/Layout Syntax and Semantics', '7/IAMF Processing', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers', '7.5.1/Loudness Normalization', '7.5.2/Limiter']
+****************************************

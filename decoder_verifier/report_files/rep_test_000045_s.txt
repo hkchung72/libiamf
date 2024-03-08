@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+128 item(s) of 128 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+78 item(s) of 78 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 36.5947786734487 dB
+ch#1 PSNR: 49.74503600288068 dB
+average PSNR: 43.169907338164691
+****************************************
+* log output file: ./log_output_files/test_000045_s.log
+* [1] wav output file: ss0_test_000045_s.wav
+* [1] reference wav file: test_000045_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using Opus
+and`ambisonics_mode` = `MONO`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific']
+****************************************

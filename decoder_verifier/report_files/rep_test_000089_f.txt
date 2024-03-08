@@ -1,0 +1,34 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+1426 item(s) of 1426 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+failure line is #9386.
+139 item(s) of 140 tests is/are passed.
+1 item(s) of 140 tests is/are failed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 25.265688421615707 dB
+ch#1 PSNR: 21.209893426799585 dB
+average PSNR: 23.237790924207644
+****************************************
+* log output file: ./log_output_files/test_000089_f.log
+* [1] wav output file: binaural_test_000089_f.wav
+* [1] reference wav file: test_000089_rendered_id_42_sub_mix_0_binaural.wav
+****************************************
+****************************************
+description:
+A 4-layer IAMF stream encoded using Opus with the last layer
+being 7.1.4 and `default_w == 0` with
+`headphones_rendering_mode == 1`.
+is_valid: True
+primary_tested_spec_sections: ['3.6/default_w', '3.6.2/channel_audio_layer_config', '3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 7.1.2', '3.6.2/loudspeaker_layout == 7.1.4', '3.6.2/num_layers', '3.7.3/headphones_rendering_mode == 1', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific', '6/ISOBMFF IAMF Encapsulation', '7/IAMF Processing', '7.3.2/Rendering an Audio Element', '7.3.2.1/Rendering a Channel-Based Audio Element to Loudspeakers']
+****************************************

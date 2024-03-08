@@ -1,0 +1,29 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+113 item(s) of 113 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000005_f.log
+* [1] wav output file: ss0_test_000005_f.wav
+* [1] reference wav file: test_000005_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A frame-aligned stereo IAMF stream with no trimming.
+is_valid: True
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end']
+****************************************

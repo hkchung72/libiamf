@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+122 item(s) of 122 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+150 item(s) of 150 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.3448357588164 dB
+ch#1 PSNR: 99.34179321257263 dB
+average PSNR: 99.343314485694520
+****************************************
+* log output file: ./log_output_files/test_000409_s.log
+* [1] wav output file: ss0_test_000409_s.wav
+* [1] reference wav file: test_000409_rendered_id_43_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A simple example of a stereo + stereo base profile IAMF
+stream has 2 Mix Presentation OBUs.
+is_valid: True
+primary_tested_spec_sections: ['7/IAMF Processing', '7.3/Mix Presentation', '7.3.1/Selecting a Mix Presentation']
+****************************************

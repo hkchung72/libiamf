@@ -1,0 +1,1 @@
+log_output_files from iamfplayer

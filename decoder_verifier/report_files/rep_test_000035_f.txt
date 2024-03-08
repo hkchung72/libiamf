@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+172 item(s) of 172 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 39.562507994668145 dB
+ch#1 PSNR: 39.60973468963104 dB
+average PSNR: 39.586121342149596
+****************************************
+* log output file: ./log_output_files/test_000035_f.log
+* [1] wav output file: ss0_test_000035_f.wav
+* [1] reference wav file: test_000035_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream encoded using low-delay mode for
+libopus.
+is_valid: True
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific', '3.11.1/application']
+****************************************

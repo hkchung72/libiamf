@@ -1,0 +1,28 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+75 item(s) of 75 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 99.3397660319448 dB
+ch#1 PSNR: 99.3397660319448 dB
+average PSNR: 99.339766031944805
+****************************************
+* log output file: ./log_output_files/test_000038.log
+* [1] wav output file: ss0_test_000038.wav
+* [1] reference wav file: test_000038_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A first-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO` with `headphones_rendering_mode
+== 0`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config', '3.7.3/headphones_rendering_mode == 0', '7/IAMF Processing', '7.1/channel_mapping', '7.3/Mix Presentation', '7.3.2/Rendering an Audio Element', '7.3.2.2/Rendering a Scene-Based Audio Element to Loudspeakers']
+****************************************

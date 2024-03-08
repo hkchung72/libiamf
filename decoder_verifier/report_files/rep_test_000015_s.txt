@@ -1,0 +1,30 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+107 item(s) of 107 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000015_s.log
+* [1] wav output file: ss0_test_000015_s.wav
+* [1] reference wav file: test_000015_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream that includes an extra parameter block
+which is not used by any audio element.
+is_valid: True
+primary_tested_spec_sections: ['3.8/parameter_id']
+****************************************

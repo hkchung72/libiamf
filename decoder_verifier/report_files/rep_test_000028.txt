@@ -1,0 +1,18 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IAMFBitstream
+  Value error, 'mapping_family' shall be 0 for channel based [type=value_error, input_value={'descriptor': Descriptor...oral_delimiter_obus=[])}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream encoded using Opus, with an incorrect
+`channel_mapping_family`.
+is_valid: False
+primary_tested_spec_sections: ['3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/channel_mapping_family']
+****************************************

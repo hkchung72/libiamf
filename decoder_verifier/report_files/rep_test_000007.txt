@@ -1,0 +1,19 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+70 item(s) of 70 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for IaSequenceHeaderOBU
+ia_code
+  Value error, 'ia_code' must be 'iamf' [type=value_error, input_value=1229016390, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream with which is invalid because `ia_code`
+is case-sensitive and should be lowercase.
+is_valid: False
+primary_tested_spec_sections: ['3.4/ia_code']
+****************************************

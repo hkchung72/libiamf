@@ -1,0 +1,30 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+107 item(s) of 107 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: inf
+ch#1 PSNR: inf
+****************************************
+* log output file: ./log_output_files/test_000062_s.log
+* [1] wav output file: ss0_test_000062_s.wav
+* [1] reference wav file: test_000062_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A stereo IAMF stream with anchored loudness provided with 2
+different anchor elements.
+is_valid: True
+primary_tested_spec_sections: ['3.7.7/integrated_loudness', '3.7.7/digital_peak', '3.7.7/info_type', '3.7.7/num_anchored_loudness']
+****************************************

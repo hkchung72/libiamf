@@ -1,0 +1,41 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+622 item(s) of 622 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+139 item(s) of 139 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 44.02829171642126 dB
+ch#1 PSNR: 46.036983580388544 dB
+average PSNR: 45.032637648404901
+[2] PSNR evaluation:
+ch#0 PSNR: 46.01400920766494 dB
+ch#1 PSNR: 48.746648224071166 dB
+ch#2 PSNR: 48.077950717299096 dB
+ch#3 PSNR: 70.02502073851436 dB
+ch#4 PSNR: 39.26737535464787 dB
+ch#5 PSNR: 41.43159720213946 dB
+average PSNR: 48.927100240722815
+****************************************
+* log output file: ./log_output_files/test_000087_f.log
+* [1] wav output file: ss0_test_000087_f.wav
+* [2] wav output file: ss1_test_000087_f.wav
+* [1] reference wav file: test_000087_rendered_id_42_sub_mix_0_layout_0.wav
+* [2] reference wav file: test_000087_rendered_id_42_sub_mix_0_layout_1.wav
+****************************************
+****************************************
+description:
+A simple example of a two-layer 5.1 + stereo base profile
+IAMF stream encoded using Opus.
+is_valid: True
+primary_tested_spec_sections: ['3.6.2/loudspeaker_layout == Stereo', '3.6.2/loudspeaker_layout == 5.1', '3.7.4/default_mix_gain', '3.11.1/OPUS Specific', '4.2/Base Profile', '8.5.1/Loudness Information']
+****************************************

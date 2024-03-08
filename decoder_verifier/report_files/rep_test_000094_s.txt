@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+128 item(s) of 128 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+108 item(s) of 108 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 49.45348725371406 dB
+ch#1 PSNR: 69.42745615865977 dB
+average PSNR: 59.440471706186912
+****************************************
+* log output file: ./log_output_files/test_000094_s.log
+* [1] wav output file: ss0_test_000094_s.wav
+* [1] reference wav file: test_000094_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A third-order ambisonics IAMF stream encoded using
+`ambisonics_mode` = `MONO`.
+is_valid: True
+primary_tested_spec_sections: ['3.6.3/ambisonics_mono_config', '3.11.2/AAC-LC Specific', '7/IAMF Processing', '7.1/channel_mapping', '7.3.2/Rendering an Audio Element', '7.3.2.2/Rendering a Scene-Based Audio Element to Loudspeakers']
+****************************************

@@ -1,0 +1,19 @@
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+73 item(s) of 73 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Invalid Bitstream!!!
+1 validation error for CodecConfigOBU
+codec_config.audio_roll_distance
+  Value error, 'audio_roll_distance' SHALL be set to -R when 'codec_id' is set to 'Opus'. Where, R is the smallest integer greater than or equal to floor(3840/num_samples_per_frame) [type=value_error, input_value=-5, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.1/v/value_error
+****************************************
+description:
+A stereo IAMF stream encoded using 20 ms Opus frames, but
+the audio roll distance is incorrect.
+is_valid: False
+primary_tested_spec_sections: ['3.5/audio_roll_distance', '3.9/Audio Frame OBU Syntax and Semantics', '3.11.1/OPUS Specific', '3.11.1/num_samples_per_frame']
+****************************************

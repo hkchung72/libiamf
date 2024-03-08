@@ -1,0 +1,51 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+137 item(s) of 137 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+141 item(s) of 141 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 40.79504864961728 dB
+ch#1 PSNR: 43.367175376080844 dB
+ch#2 PSNR: 45.07809218412455 dB
+ch#3 PSNR: 67.02472044205652 dB
+ch#4 PSNR: 43.79391222784343 dB
+ch#5 PSNR: 40.23839258873035 dB
+average PSNR: 46.716223578075500
+[2] PSNR evaluation:
+ch#0 PSNR: 43.36288746351785 dB
+ch#1 PSNR: 46.571991040348635 dB
+ch#2 PSNR: 45.07809218412455 dB
+ch#3 PSNR: 67.02472044205652 dB
+ch#4 PSNR: 37.16450695160751 dB
+ch#5 PSNR: 39.459858392080136 dB
+ch#6 PSNR: 43.782103119165335 dB
+ch#7 PSNR: 40.23929899780154 dB
+average PSNR: 45.335432323837765
+[3] PSNR evaluation:
+[Errno 2] No such file or directory: './tests\\ref_test_000228_2.wav'
+****************************************
+* log output file: ./log_output_files/test_000228_s.log
+* [1] wav output file: ss11_test_000228_s.wav
+* [2] wav output file: ss2_test_000228_s.wav
+* [3] wav output file: ss9_test_000228_s.wav
+* [1] reference wav file: test_000228_rendered_id_42_sub_mix_0_layout_1.wav
+* [2] reference wav file: test_000228_rendered_id_42_sub_mix_0_layout_2.wav
+* [3] reference wav file: ref_test_000228_2.wav
+****************************************
+****************************************
+description:
+A 3-layer IAMF stream scalable encoded using Opus with the
+channel layouts: 3.1.2ch/5.1.2ch/7.1.4ch
+is_valid: True
+primary_tested_spec_sections: ['3.6/num_parameters', '3.6.2/Scalable Channel Layout Config Syntax and Semantics', '3.6.2/loudspeaker_layout == 3.1.2', '3.6.2/loudspeaker_layout == 5.1.2', '3.6.2/loudspeaker_layout == 7.1.4', '3.6.2/output_gain_is_present_flag', '3.6.2/output_gain_flags', '3.6.2/output_gain', '3.6.2.1/Channel Layout Generation Rule', '3.8/recon_gain_info_parameter_data', '3.8.3/Recon Gain Info Parameter Data Syntax and Semantics', '7/IAMF Processing', '7.2.1/Gain', '7.2.3/Recon Gain', '7.6.1/Dynamic Down-mix Matrix', '9.1.2.2/Annex A2.2: Down-mix Mechanism', '9.1.2.3/Annex A2.3: Recon Gain Generation', '9.1.2.4/Annex A2.4: Channel Group Generation Rule']
+****************************************

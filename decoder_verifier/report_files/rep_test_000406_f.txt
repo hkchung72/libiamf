@@ -1,0 +1,31 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+581 item(s) of 581 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+98 item(s) of 98 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 96.54207028145083 dB
+ch#1 PSNR: 96.59932347572604 dB
+average PSNR: 96.570696878588436
+****************************************
+* log output file: ./log_output_files/test_000406_f.log
+* [1] wav output file: ss0_test_000406_f.wav
+* [1] reference wav file: test_000406_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A simple example of a stereo + stereo base profile IAMF
+stream using linear gain.
+is_valid: True
+primary_tested_spec_sections: ['3.8.1/animation_type == LINEAR']
+****************************************

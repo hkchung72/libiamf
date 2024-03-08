@@ -1,0 +1,30 @@
+****************************************
+* IAMF-ISOBMFF Syntax Check 
+****************************************
+137 item(s) of 137 tests is/are passed.
+****************************************
+* IAMF-OBU Syntax Check
+****************************************
+81 item(s) of 81 tests is/are passed.
+****************************************
+* IAMF-Bitstream Valid Check
+****************************************
+Valid Bitstream
+****************************************
+* Decoded Audio Signal Check
+****************************************
+[1] PSNR evaluation:
+ch#0 PSNR: 45.07809218412455 dB
+average PSNR: 45.078092184124550
+****************************************
+* log output file: ./log_output_files/test_000212_s.log
+* [1] wav output file: ss12_test_000212_s.wav
+* [1] reference wav file: test_000212_rendered_id_42_sub_mix_0_layout_0.wav
+****************************************
+****************************************
+description:
+A simple example of an Opus mono IAMF stream with 1
+substream and no parameter blocks.
+is_valid: True
+primary_tested_spec_sections: ['3.2/num_samples_to_trim_at_end', '3.2/num_samples_to_trim_at_start', '3.6.2/loudspeaker_layout == Mono', '3.11.1/OPUS Specific', '3.11.1/pre_skip']
+****************************************
