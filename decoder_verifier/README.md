@@ -24,7 +24,7 @@ Build iamfplayer with SUPPORT_VERIFIER=1 option.<BR>
 > python.exe test_000019_s.py --log test_000019_s.log --wav ss0_test_000019_s.wav --psnr ref_ss0_test_000019_s.wav<BR>
 --> call test_000019_s.py for verifying test_000019_s.log and ss0_test_000019_s.wav.<BR>
 
-please see the 5 directories to see the verification result.<BR>
+please see the 4 directories to see the verification result.<BR>
 
 "decoder_verifier/log_output_files"<BR>
 "decoder_verifier/wav_output_files"<BR>
