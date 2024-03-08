@@ -28,8 +28,15 @@ please see the 5 directories to see the verification result.<BR>
 
 "decoder_verifier/log_output_files"<BR>
 "decoder_verifier/wav_output_files"<BR>
-"decoder_verifier/ref_audio_files"<BR>
 "decoder_verifier/report_files"<BR>
 "decoder_verifier/testscript_files"<BR>
 
+## How to perform full verification<BR>
+
+> cd decoder_verifier
+> mkdir tests
+> copy ..\tests\*.* .
+> runtest
+
+When full verification is completed, report files for all test cases are created in the report_files directory.
 
